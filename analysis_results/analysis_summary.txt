@@ -15,10 +15,10 @@ Push Down Attribute         1          1
 Push Down Method            2          1
 Mixed Refactoring Types:
                      Original  Retrieved
-Pull Up Method              9          4
 Pull Up Attribute           9          4
-Extract Superclass          7          3
+Pull Up Method              9          4
 Extract Method             31          9
+Extract Superclass          7          3
 Push Down Method            4          1
 Push Down Attribute         6          2
 Move Method                20          6
@@ -35,8 +35,8 @@ Move Attribute             45         14
 Move Class                 85         27
 Extract Interface          10          4
 Rename Package             25          8
-Pull Up Method             18          8
 Pull Up Attribute          11          5
+Pull Up Method             18          8
 Move Method                40         11
 Extract Superclass         18          8
 Push Down Method            6          2

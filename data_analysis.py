@@ -2,7 +2,7 @@ import json
 import os
 import matplotlib.pyplot as plt
 import pandas as pd
-from collections import Counter
+from collections import Counter, defaultdict
 
 # Load the JSON data pre and post
 with open('data_code\\successful_ids_silva.json', 'r') as file:
@@ -15,14 +15,16 @@ for ref in full_data:
     ref_id = str(ref['id'])
     data_pre[ref_id] = [refactoring['type'] for refactoring in ref['refactorings']]
 
-# Function to analyze the refactoring data
+# Enhanced function to analyze the refactoring data
 def analyze_data(data):
+    details_by_id = defaultdict(Counter)
     single_refactoring = Counter()
     multiple_refactoring = Counter()
     total_refactoring_count = Counter()
     
-    for _, refactorings in data.items():
+    for ref_id, refactorings in data.items():
         types = set(refactorings)
+        details_by_id[ref_id].update(refactorings)
         if len(types) == 1:
             single_refactoring[list(types)[0]] += 1
         else:
@@ -31,21 +33,30 @@ def analyze_data(data):
         for ref_type in types:
             total_refactoring_count[ref_type] += 1
             
-    return single_refactoring, multiple_refactoring, total_refactoring_count
+    return single_refactoring, multiple_refactoring, total_refactoring_count, details_by_id
 
 # Analyze both datasets
-orig_single, orig_multiple, orig_total = analyze_data(data_pre)
-retr_single, retr_multiple, retr_total = analyze_data(data_post)
+orig_single, orig_multiple, orig_total, details_pre = analyze_data(data_pre)
+retr_single, retr_multiple, retr_total, details_post = analyze_data(data_post)
 
 # Prepare data for visualization
-single_types_combined = pd.DataFrame({'Original': orig_single,
-                                      'Retrieved': retr_single}).fillna(0)
+single_types_combined = pd.DataFrame({'Original': orig_single, 'Retrieved': retr_single}).fillna(0)
+multiple_types_combined = pd.DataFrame({'Original': orig_multiple, 'Retrieved': retr_multiple}).fillna(0)
+total_types_combined = pd.DataFrame({'Original': orig_total, 'Retrieved': retr_total}).fillna(0)
 
-multiple_types_combined = pd.DataFrame({'Original': orig_multiple,
-                                        'Retrieved': retr_multiple}).fillna(0)
+# Combine and prepare data for CSV export
+def prepare_detailed_data(details):
+    df = pd.DataFrame.from_dict(details, orient='index').fillna(0)
+    df.index.name = 'id'
+    return df
 
-total_types_combined = pd.DataFrame({'Original': orig_total,
-                                     'Retrieved': retr_total}).fillna(0)
+# Generate dataframes from details
+df_pre = prepare_detailed_data(details_pre)
+df_post = prepare_detailed_data(details_post)
+
+# Save to CSV
+df_pre.to_csv('analysis_results\\refactoring_details_pre.csv')
+df_post.to_csv('analysis_results\\refactoring_details_post.csv')
 
 # Create a directory for the results if it doesn't exist
 output_dir = 'analysis_results\\'
