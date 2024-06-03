@@ -105,6 +105,6 @@ classifiers, results = train_and_evaluate(train_docs, train_labels, test_docs, t
 
 print("Classification results saved successfully.")
 
-print("Accuracy for each refactoring type:")
+print("Accuracy  and TN/TP/FN/FP for each refactoring type:")
 for refactoring_type, result in results.items():
-    print(f"{refactoring_type}: {round(result['accuracy'],3)}")
+    print(f"{refactoring_type}: {round(result['accuracy'],3)} -- TN/TP/FN/FP : {result['confusion_matrix'][0][0]}/{result['confusion_matrix'][1][1]}/{result['confusion_matrix'][1][0]}/{result['confusion_matrix'][0][1]}")

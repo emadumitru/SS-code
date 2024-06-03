@@ -1,6 +1,6 @@
 {'Extract Interface': {'confusion_matrix': array([[37,  0],
-       [ 5,  0]], dtype=int64), 'accuracy': 0.8809523809523809}, 'Extract Method': {'confusion_matrix': array([[ 9, 13],
-       [ 8, 12]], dtype=int64), 'accuracy': 0.5}, 'Extract Superclass': {'confusion_matrix': array([[36,  0],
+       [ 5,  0]], dtype=int64), 'accuracy': 0.8809523809523809}, 'Extract Method': {'confusion_matrix': array([[ 7, 15],
+       [10, 10]], dtype=int64), 'accuracy': 0.40476190476190477}, 'Extract Superclass': {'confusion_matrix': array([[36,  0],
        [ 6,  0]], dtype=int64), 'accuracy': 0.8571428571428571}, 'Inline Method': {'confusion_matrix': array([[37,  0],
        [ 5,  0]], dtype=int64), 'accuracy': 0.8809523809523809}, 'Move Attribute': {'confusion_matrix': array([[31,  0],
        [11,  0]], dtype=int64), 'accuracy': 0.7380952380952381}, 'Move Class': {'confusion_matrix': array([[23,  0],
