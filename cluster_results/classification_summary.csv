@@ -1,0 +1,1225 @@
+Refactoring Type,Source File,Model,Split,Pos Train,Neg Train,Accuracy,TN,TP,FN,FP,Model Params,Approach,Type Split,Type File
+Inline Method,ratio,RandomForest,0.2,13,132,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Inline Method,ratio,SVM,0.2,13,132,0.5,100,0,100,0,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,False
+Inline Method,ratio,LogisticRegression,0.2,13,132,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Inline Method,ratio,RandomForest,0.3,11,116,0.59,98,20,80,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,False,False
+Inline Method,ratio,SVM,0.3,11,116,0.58,96,20,80,4,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,False
+Inline Method,ratio,LogisticRegression,0.3,11,116,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Inline Method,ratio,RandomForest,0.4,10,99,0.568407960199005,97,17,83,3,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratio,False,False
+Inline Method,ratio,SVM,0.4,10,99,0.5460199004975125,93,17,83,7,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,False
+Inline Method,ratio,LogisticRegression,0.4,10,99,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Inline Method,ratio,RandomForest,0.5,8,83,0.526355421686747,93,12,88,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,False,False
+Inline Method,ratio,SVM,0.5,8,83,0.588855421686747,93,25,75,7,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,False
+Inline Method,ratio,LogisticRegression,0.5,8,83,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Extract Method,ratio,RandomForest,0.2,85,60,0.6303030303030304,53,73,27,47,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Extract Method,ratio,SVM,0.2,85,60,0.6742424242424242,67,68,32,33,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,False
+Extract Method,ratio,LogisticRegression,0.2,85,60,0.6772727272727272,40,95,5,60,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,False
+Extract Method,ratio,RandomForest,0.3,75,52,0.6175271739130435,39,84,16,61,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratio,False,False
+Extract Method,ratio,SVM,0.3,75,52,0.6209239130434783,30,94,6,70,"[""{'C': 10, 'kernel': 'linear'}""]",ratio,False,False
+Extract Method,ratio,LogisticRegression,0.3,75,52,0.6270380434782609,35,91,9,65,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,False
+Extract Method,ratio,RandomForest,0.4,64,45,0.6170542635658915,47,77,23,53,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratio,False,False
+Extract Method,ratio,SVM,0.4,64,45,0.672093023255814,60,74,26,40,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,False
+Extract Method,ratio,LogisticRegression,0.4,64,45,0.601937984496124,37,84,16,63,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,False
+Extract Method,ratio,RandomForest,0.5,53,38,0.6236236236236237,43,81,19,57,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,False,False
+Extract Method,ratio,SVM,0.5,53,38,0.5915915915915916,41,78,22,59,"[""{'C': 1, 'kernel': 'rbf'}""]",ratio,False,False
+Extract Method,ratio,LogisticRegression,0.5,53,38,0.5695695695695695,32,81,19,68,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,False
+Move Class,ratio,RandomForest,0.2,22,123,0.484375,97,0,100,3,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Class,ratio,SVM,0.2,22,123,0.584375,97,20,80,3,"[""{'C': 1, 'kernel': 'rbf'}""]",ratio,False,False
+Move Class,ratio,LogisticRegression,0.2,22,123,0.484375,97,0,100,3,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,False
+Move Class,ratio,RandomForest,0.3,19,108,0.48936170212765956,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Class,ratio,SVM,0.3,19,108,0.4787234042553192,96,0,100,4,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,False
+Move Class,ratio,LogisticRegression,0.3,19,108,0.5,100,0,100,0,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,False
+Move Class,ratio,RandomForest,0.4,16,93,0.5373900293255132,98,9,91,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratio,False,False
+Move Class,ratio,SVM,0.4,16,93,0.5828445747800587,98,18,82,2,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,False
+Move Class,ratio,LogisticRegression,0.4,16,93,0.5,100,0,100,0,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,False
+Move Class,ratio,RandomForest,0.5,13,78,0.5876623376623377,96,21,79,4,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Class,ratio,SVM,0.5,13,78,0.5227272727272727,97,7,93,3,"[""{'C': 1, 'kernel': 'rbf'}""]",ratio,False,False
+Move Class,ratio,LogisticRegression,0.5,13,78,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Rename Package,ratio,RandomForest,0.2,6,139,1.0,100,100,0,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratio,False,False
+Rename Package,ratio,SVM,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Rename Package,ratio,LogisticRegression,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Rename Package,ratio,RandomForest,0.3,5,122,0.75,100,50,50,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Rename Package,ratio,SVM,0.3,5,122,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Rename Package,ratio,LogisticRegression,0.3,5,122,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Rename Package,ratio,RandomForest,0.4,4,105,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,False,False
+Rename Package,ratio,SVM,0.4,4,105,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Rename Package,ratio,LogisticRegression,0.4,4,105,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Rename Package,ratio,RandomForest,0.5,3,88,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,False,False
+Rename Package,ratio,SVM,0.5,3,88,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Rename Package,ratio,LogisticRegression,0.5,3,88,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Pull Up Method,ratio,RandomForest,0.2,6,139,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Pull Up Method,ratio,SVM,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Pull Up Method,ratio,LogisticRegression,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Pull Up Method,ratio,RandomForest,0.3,6,121,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Pull Up Method,ratio,SVM,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Pull Up Method,ratio,LogisticRegression,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Pull Up Method,ratio,RandomForest,0.4,5,104,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Pull Up Method,ratio,SVM,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Pull Up Method,ratio,LogisticRegression,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Pull Up Method,ratio,RandomForest,0.5,4,87,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Pull Up Method,ratio,SVM,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Pull Up Method,ratio,LogisticRegression,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Move Attribute,ratio,RandomForest,0.2,10,135,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Attribute,ratio,SVM,0.2,10,135,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Move Attribute,ratio,LogisticRegression,0.2,10,135,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Move Attribute,ratio,RandomForest,0.3,8,119,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Attribute,ratio,SVM,0.3,8,119,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Move Attribute,ratio,LogisticRegression,0.3,8,119,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Move Attribute,ratio,RandomForest,0.4,7,102,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Attribute,ratio,SVM,0.4,7,102,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Move Attribute,ratio,LogisticRegression,0.4,7,102,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Move Attribute,ratio,RandomForest,0.5,6,85,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Attribute,ratio,SVM,0.5,6,85,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Move Attribute,ratio,LogisticRegression,0.5,6,85,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Move Method,ratio,RandomForest,0.2,8,137,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Method,ratio,SVM,0.2,8,137,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Move Method,ratio,LogisticRegression,0.2,8,137,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Move Method,ratio,RandomForest,0.3,7,120,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Method,ratio,SVM,0.3,7,120,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Move Method,ratio,LogisticRegression,0.3,7,120,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Move Method,ratio,RandomForest,0.4,6,103,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Method,ratio,SVM,0.4,6,103,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Move Method,ratio,LogisticRegression,0.4,6,103,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Move Method,ratio,RandomForest,0.5,5,86,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Move Method,ratio,SVM,0.5,5,86,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Move Method,ratio,LogisticRegression,0.5,5,86,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Extract Superclass,ratio,RandomForest,0.2,6,139,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,False,False
+Extract Superclass,ratio,SVM,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Extract Superclass,ratio,LogisticRegression,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Extract Superclass,ratio,RandomForest,0.3,6,121,0.49056603773584906,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratio,False,False
+Extract Superclass,ratio,SVM,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Extract Superclass,ratio,LogisticRegression,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Extract Superclass,ratio,RandomForest,0.4,5,104,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Extract Superclass,ratio,SVM,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Extract Superclass,ratio,LogisticRegression,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Extract Superclass,ratio,RandomForest,0.5,4,87,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,False
+Extract Superclass,ratio,SVM,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,False
+Extract Superclass,ratio,LogisticRegression,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,False
+Inline Method,ratio_single,RandomForest,0.2,11,117,0.46551724137931033,93,0,100,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,False,True
+Inline Method,ratio_single,SVM,0.2,11,117,0.6666666666666666,100,33,67,0,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,True
+Inline Method,ratio_single,LogisticRegression,0.2,11,117,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Inline Method,ratio_single,RandomForest,0.3,10,102,0.6022727272727273,95,25,75,5,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,True
+Inline Method,ratio_single,SVM,0.3,10,102,0.625,100,25,75,0,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,True
+Inline Method,ratio_single,LogisticRegression,0.3,10,102,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Inline Method,ratio_single,RandomForest,0.4,8,88,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,True
+Inline Method,ratio_single,SVM,0.4,8,88,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,True
+Inline Method,ratio_single,LogisticRegression,0.4,8,88,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Inline Method,ratio_single,RandomForest,0.5,7,73,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,True
+Inline Method,ratio_single,SVM,0.5,7,73,0.6291585127201565,97,29,71,3,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,True
+Inline Method,ratio_single,LogisticRegression,0.5,7,73,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Extract Method,ratio_single,RandomForest,0.2,78,50,0.6666666666666667,58,75,25,42,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,False,True
+Extract Method,ratio_single,SVM,0.2,78,50,0.7166666666666667,58,85,15,42,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,True
+Extract Method,ratio_single,LogisticRegression,0.2,78,50,0.7,50,90,10,50,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,True
+Extract Method,ratio_single,RandomForest,0.3,69,43,0.720508166969147,58,86,14,42,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratio,False,True
+Extract Method,ratio_single,SVM,0.3,69,43,0.7822141560798548,74,83,17,26,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,True
+Extract Method,ratio_single,LogisticRegression,0.3,69,43,0.7459165154264973,53,97,3,47,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,True
+Extract Method,ratio_single,RandomForest,0.4,59,37,0.7302564102564102,64,82,18,36,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,False,True
+Extract Method,ratio_single,SVM,0.4,59,37,0.6671794871794872,36,97,3,64,"[""{'C': 10, 'kernel': 'linear'}""]",ratio,False,True
+Extract Method,ratio_single,LogisticRegression,0.4,59,37,0.6743589743589744,40,95,5,60,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,True
+Extract Method,ratio_single,RandomForest,0.5,49,31,0.6764318630678078,52,84,16,48,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,True
+Extract Method,ratio_single,SVM,0.5,49,31,0.7188940092165899,58,86,14,42,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,True
+Extract Method,ratio_single,LogisticRegression,0.5,49,31,0.662936142198815,39,94,6,61,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,True
+Move Class,ratio_single,RandomForest,0.2,14,114,0.4642857142857143,93,0,100,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,False,True
+Move Class,ratio_single,SVM,0.2,14,114,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,True
+Move Class,ratio_single,LogisticRegression,0.2,14,114,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Move Class,ratio_single,RandomForest,0.3,13,99,0.45348837209302323,91,0,100,9,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratio,False,True
+Move Class,ratio_single,SVM,0.3,13,99,0.5534883720930233,91,20,80,9,"[""{'C': 1, 'kernel': 'rbf'}""]",ratio,False,True
+Move Class,ratio_single,LogisticRegression,0.3,13,99,0.46511627906976744,93,0,100,7,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,False,True
+Move Class,ratio_single,RandomForest,0.4,11,85,0.5451127819548872,95,14,86,5,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,True
+Move Class,ratio_single,SVM,0.4,11,85,0.6165413533834586,95,29,71,5,"[""{'C': 1, 'kernel': 'rbf'}""]",ratio,False,True
+Move Class,ratio_single,LogisticRegression,0.4,11,85,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Move Class,ratio_single,RandomForest,0.5,9,71,0.582942097026604,94,22,78,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratio,False,True
+Move Class,ratio_single,SVM,0.5,9,71,0.6384976525821596,94,33,67,6,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,False,True
+Move Class,ratio_single,LogisticRegression,0.5,9,71,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Move Attribute,ratio_single,RandomForest,0.2,6,122,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,True
+Move Attribute,ratio_single,SVM,0.2,6,122,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,True
+Move Attribute,ratio_single,LogisticRegression,0.2,6,122,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Move Attribute,ratio_single,RandomForest,0.3,5,107,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,True
+Move Attribute,ratio_single,SVM,0.3,5,107,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,True
+Move Attribute,ratio_single,LogisticRegression,0.3,5,107,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Move Attribute,ratio_single,RandomForest,0.4,4,92,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,True
+Move Attribute,ratio_single,SVM,0.4,4,92,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,True
+Move Attribute,ratio_single,LogisticRegression,0.4,4,92,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Move Attribute,ratio_single,RandomForest,0.5,3,77,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,False,True
+Move Attribute,ratio_single,SVM,0.5,3,77,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,False,True
+Move Attribute,ratio_single,LogisticRegression,0.5,3,77,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,False,True
+Inline Method,ratio_split,RandomForest,0.2,12,24,0.5616197183098591,87,25,75,13,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,False
+Inline Method,ratio_split,SVM,0.2,12,24,0.4454225352112676,64,25,75,36,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Inline Method,ratio_split,LogisticRegression,0.2,12,24,0.4753521126760563,95,0,100,5,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Inline Method,ratio_split,RandomForest,0.3,11,22,0.6236111111111111,85,40,60,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Inline Method,ratio_split,SVM,0.3,11,22,0.6479166666666667,90,40,60,10,"[""{'C': 1, 'kernel': 'rbf'}""]",ratio,True,False
+Inline Method,ratio_split,LogisticRegression,0.3,11,22,0.4791666666666667,96,0,100,4,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Inline Method,ratio_split,RandomForest,0.4,9,18,0.6911196911196911,81,57,43,19,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,True,False
+Inline Method,ratio_split,SVM,0.4,9,18,0.678088803088803,64,71,29,36,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Inline Method,ratio_split,LogisticRegression,0.4,9,18,0.5545366795366795,97,14,86,3,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Inline Method,ratio_split,RandomForest,0.5,8,16,0.7391666666666667,85,62,38,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratio,True,False
+Inline Method,ratio_split,SVM,0.5,8,16,0.6683333333333333,59,75,25,41,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Inline Method,ratio_split,LogisticRegression,0.5,8,16,0.6116666666666667,97,25,75,3,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Extract Method,ratio_split,RandomForest,0.2,85,37,0.5610047846889952,39,73,27,61,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,False
+Extract Method,ratio_split,SVM,0.2,85,37,0.6483253588516746,34,95,5,66,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Extract Method,ratio_split,LogisticRegression,0.2,85,37,0.5598086124401913,21,91,9,79,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Extract Method,ratio_split,RandomForest,0.3,74,37,0.5801435406698565,34,82,18,66,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratio,True,False
+Extract Method,ratio_split,SVM,0.3,74,37,0.6104465709728868,34,88,12,66,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Extract Method,ratio_split,LogisticRegression,0.3,74,37,0.5426634768740032,24,85,15,76,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Extract Method,ratio_split,RandomForest,0.4,64,37,0.5826193390452876,42,74,26,58,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Extract Method,ratio_split,SVM,0.4,64,37,0.5881272949816401,32,86,14,68,"[""{'C': 1, 'kernel': 'rbf'}""]",ratio,True,False
+Extract Method,ratio_split,LogisticRegression,0.4,64,37,0.574969400244798,29,86,14,71,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Extract Method,ratio_split,RandomForest,0.5,53,37,0.6535087719298246,47,83,17,53,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",ratio,True,False
+Extract Method,ratio_split,SVM,0.5,53,37,0.5614035087719298,29,83,17,71,"[""{'C': 10, 'kernel': 'linear'}""]",ratio,True,False
+Extract Method,ratio_split,LogisticRegression,0.5,53,37,0.5560428849902534,32,80,20,68,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Move Class,ratio_split,RandomForest,0.2,21,42,0.7005899705014749,73,67,33,27,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Class,ratio_split,SVM,0.2,21,42,0.7890855457227138,91,67,33,9,"[""{'C': 1, 'kernel': 'rbf'}""]",ratio,True,False
+Move Class,ratio_split,LogisticRegression,0.2,21,42,0.8112094395280236,96,67,33,4,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Move Class,ratio_split,RandomForest,0.3,18,36,0.6559290382819795,76,56,44,24,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Class,ratio_split,SVM,0.3,18,36,0.7609710550887021,97,56,44,3,"[""{'C': 10, 'kernel': 'linear'}""]",ratio,True,False
+Move Class,ratio_split,LogisticRegression,0.3,18,36,0.7567693744164332,96,56,44,4,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Move Class,ratio_split,RandomForest,0.4,16,32,0.729490022172949,73,73,27,27,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",ratio,True,False
+Move Class,ratio_split,SVM,0.4,16,32,0.687361419068736,83,55,45,17,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Move Class,ratio_split,LogisticRegression,0.4,16,32,0.7028824833702882,95,45,55,5,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Move Class,ratio_split,RandomForest,0.5,13,26,0.6943521594684385,67,71,29,33,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Class,ratio_split,SVM,0.5,13,26,0.7012735326688815,76,64,36,24,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Move Class,ratio_split,LogisticRegression,0.5,13,26,0.7151162790697674,93,50,50,7,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Rename Package,ratio_split,RandomForest,0.2,5,10,0.9454545454545454,89,100,0,11,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Rename Package,ratio_split,SVM,0.2,5,10,0.9727272727272727,95,100,0,5,"[""{'C': 1, 'kernel': 'rbf'}""]",ratio,True,False
+Rename Package,ratio_split,LogisticRegression,0.2,5,10,0.9787878787878788,96,100,0,4,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Rename Package,ratio_split,RandomForest,0.3,4,8,0.9520958083832336,90,100,0,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Rename Package,ratio_split,SVM,0.3,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Rename Package,ratio_split,LogisticRegression,0.3,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Rename Package,ratio_split,RandomForest,0.4,4,8,0.9520958083832336,90,100,0,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Rename Package,ratio_split,SVM,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Rename Package,ratio_split,LogisticRegression,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Rename Package,ratio_split,RandomForest,0.5,3,6,0.8394970414201184,93,75,25,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Rename Package,ratio_split,SVM,0.5,3,6,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Rename Package,ratio_split,LogisticRegression,0.5,3,6,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Pull Up Method,ratio_split,RandomForest,0.2,6,12,0.39197530864197533,78,0,100,22,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Pull Up Method,ratio_split,SVM,0.2,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Pull Up Method,ratio_split,LogisticRegression,0.2,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Pull Up Method,ratio_split,RandomForest,0.3,5,10,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,False
+Pull Up Method,ratio_split,SVM,0.3,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Pull Up Method,ratio_split,LogisticRegression,0.3,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Pull Up Method,ratio_split,RandomForest,0.4,4,8,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,False
+Pull Up Method,ratio_split,SVM,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Pull Up Method,ratio_split,LogisticRegression,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Pull Up Method,ratio_split,RandomForest,0.5,4,8,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,False
+Pull Up Method,ratio_split,SVM,0.5,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Pull Up Method,ratio_split,LogisticRegression,0.5,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Move Attribute,ratio_split,RandomForest,0.2,9,18,0.45394736842105265,91,0,100,9,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Attribute,ratio_split,SVM,0.2,9,18,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Move Attribute,ratio_split,LogisticRegression,0.2,9,18,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Move Attribute,ratio_split,RandomForest,0.3,8,16,0.5827922077922079,92,25,75,8,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Attribute,ratio_split,SVM,0.3,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Move Attribute,ratio_split,LogisticRegression,0.3,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Move Attribute,ratio_split,RandomForest,0.4,7,14,0.47115384615384615,94,0,100,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Attribute,ratio_split,SVM,0.4,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Move Attribute,ratio_split,LogisticRegression,0.4,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Move Attribute,ratio_split,RandomForest,0.5,6,12,0.43037974683544306,86,0,100,14,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Attribute,ratio_split,SVM,0.5,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Move Attribute,ratio_split,LogisticRegression,0.5,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Move Method,ratio_split,RandomForest,0.2,8,16,0.7147435897435898,93,50,50,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Method,ratio_split,SVM,0.2,8,16,0.6185897435897436,74,50,50,26,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Move Method,ratio_split,LogisticRegression,0.2,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Move Method,ratio_split,RandomForest,0.3,7,14,0.4936708860759494,99,0,100,1,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Method,ratio_split,SVM,0.3,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Move Method,ratio_split,LogisticRegression,0.3,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Move Method,ratio_split,RandomForest,0.4,6,12,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Method,ratio_split,SVM,0.4,6,12,0.60625,71,50,50,29,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Move Method,ratio_split,LogisticRegression,0.4,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Move Method,ratio_split,RandomForest,0.5,5,10,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,False
+Move Method,ratio_split,SVM,0.5,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,False
+Move Method,ratio_split,LogisticRegression,0.5,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Extract Superclass,ratio_split,RandomForest,0.2,6,12,0.6049382716049383,71,50,50,29,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Extract Superclass,ratio_split,SVM,0.2,6,12,0.6049382716049383,71,50,50,29,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Extract Superclass,ratio_split,LogisticRegression,0.2,6,12,0.4444444444444444,89,0,100,11,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,False
+Extract Superclass,ratio_split,RandomForest,0.3,5,10,0.5477642276422764,76,33,67,24,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Extract Superclass,ratio_split,SVM,0.3,5,10,0.5416666666666666,75,33,67,25,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Extract Superclass,ratio_split,LogisticRegression,0.3,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Extract Superclass,ratio_split,RandomForest,0.4,4,8,0.4036144578313253,81,0,100,19,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Extract Superclass,ratio_split,SVM,0.4,4,8,0.6325301204819277,77,50,50,23,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Extract Superclass,ratio_split,LogisticRegression,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Extract Superclass,ratio_split,RandomForest,0.5,4,8,0.4036144578313253,81,0,100,19,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,False
+Extract Superclass,ratio_split,SVM,0.5,4,8,0.6325301204819277,77,50,50,23,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,False
+Extract Superclass,ratio_split,LogisticRegression,0.5,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,False
+Inline Method,ratio_split_single,RandomForest,0.2,11,22,0.6182795698924731,90,33,67,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,True
+Inline Method,ratio_split_single,SVM,0.2,11,22,0.6061827956989247,88,33,67,12,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,True
+Inline Method,ratio_split_single,LogisticRegression,0.2,11,22,0.4838709677419355,97,0,100,3,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Inline Method,ratio_split_single,RandomForest,0.3,9,18,0.7375,88,60,40,12,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,True
+Inline Method,ratio_split_single,SVM,0.3,9,18,0.73359375,87,60,40,13,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,True
+Inline Method,ratio_split_single,LogisticRegression,0.3,9,18,0.5921875,98,20,80,2,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Inline Method,ratio_split_single,RandomForest,0.4,8,16,0.7717948717948717,88,67,33,12,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratio,True,True
+Inline Method,ratio_split_single,SVM,0.4,8,16,0.7679487179487179,87,67,33,13,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,True
+Inline Method,ratio_split_single,LogisticRegression,0.4,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,True
+Inline Method,ratio_split_single,RandomForest,0.5,7,14,0.5221861471861472,90,14,86,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,True
+Inline Method,ratio_split_single,SVM,0.5,7,14,0.7781385281385281,98,57,43,2,"[""{'C': 1, 'kernel': 'rbf'}""]",ratio,True,True
+Inline Method,ratio_split_single,LogisticRegression,0.5,7,14,0.4962121212121212,99,0,100,1,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Extract Method,ratio_split_single,RandomForest,0.2,78,31,0.6346774193548387,42,85,15,58,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,True
+Extract Method,ratio_split_single,SVM,0.2,78,31,0.6580645161290323,52,80,20,48,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,True
+Extract Method,ratio_split_single,LogisticRegression,0.2,78,31,0.5951612903225807,29,90,10,71,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Extract Method,ratio_split_single,RandomForest,0.3,68,31,0.6596774193548387,42,90,10,58,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,True
+Extract Method,ratio_split_single,SVM,0.3,68,31,0.6741935483870968,55,80,20,45,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,True
+Extract Method,ratio_split_single,LogisticRegression,0.3,68,31,0.6118279569892473,29,93,7,71,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Extract Method,ratio_split_single,RandomForest,0.4,58,31,0.6205645161290323,52,72,28,48,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratio,True,True
+Extract Method,ratio_split_single,SVM,0.4,58,31,0.6366935483870968,55,72,28,45,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,True
+Extract Method,ratio_split_single,LogisticRegression,0.4,58,31,0.6112903225806452,32,90,10,68,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Extract Method,ratio_split_single,RandomForest,0.5,49,31,0.6398946675444371,48,80,20,52,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",ratio,True,True
+Extract Method,ratio_split_single,SVM,0.5,49,31,0.6474654377880185,58,71,29,42,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,True
+Extract Method,ratio_split_single,LogisticRegression,0.5,49,31,0.6102699144173799,32,90,10,68,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Move Class,ratio_split_single,RandomForest,0.2,14,28,0.7828947368421053,82,75,25,18,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratio,True,True
+Move Class,ratio_split_single,SVM,0.2,14,28,0.8267543859649122,90,75,25,10,"[""{'C': 10, 'kernel': 'linear'}""]",ratio,True,True
+Move Class,ratio_split_single,LogisticRegression,0.2,14,28,0.8399122807017544,93,75,25,7,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Move Class,ratio_split_single,RandomForest,0.3,12,24,0.6694915254237288,84,50,50,16,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",ratio,True,True
+Move Class,ratio_split_single,SVM,0.3,12,24,0.6949152542372881,89,50,50,11,"[""{'C': 10, 'kernel': 'linear'}""]",ratio,True,True
+Move Class,ratio_split_single,LogisticRegression,0.3,12,24,0.7033898305084746,91,50,50,9,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Move Class,ratio_split_single,RandomForest,0.4,10,20,0.617827868852459,86,38,62,14,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,True
+Move Class,ratio_split_single,SVM,0.4,10,20,0.6260245901639344,88,38,62,12,"[""{'C': 10, 'kernel': 'linear'}""]",ratio,True,True
+Move Class,ratio_split_single,LogisticRegression,0.4,10,20,0.646516393442623,92,38,62,8,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Move Class,ratio_split_single,RandomForest,0.5,9,18,0.6657706093189963,89,44,56,11,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratio,True,True
+Move Class,ratio_split_single,SVM,0.5,9,18,0.6536738351254481,86,44,56,14,"[""{'C': 10, 'kernel': 'linear'}""]",ratio,True,True
+Move Class,ratio_split_single,LogisticRegression,0.5,9,18,0.6859318996415771,93,44,56,7,"[""{'C': 10, 'max"", ""iter': 100}""]",ratio,True,True
+Move Attribute,ratio_split_single,RandomForest,0.2,5,10,0.36363636363636365,73,0,100,27,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratio,True,True
+Move Attribute,ratio_split_single,SVM,0.2,5,10,0.3006993006993007,60,0,100,40,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,True
+Move Attribute,ratio_split_single,LogisticRegression,0.2,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,True
+Move Attribute,ratio_split_single,RandomForest,0.3,4,8,0.3758620689655172,75,0,100,25,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",ratio,True,True
+Move Attribute,ratio_split_single,SVM,0.3,4,8,0.5149425287356322,70,33,67,30,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,True
+Move Attribute,ratio_split_single,LogisticRegression,0.3,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,True
+Move Attribute,ratio_split_single,RandomForest,0.4,4,8,0.3758620689655172,75,0,100,25,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",ratio,True,True
+Move Attribute,ratio_split_single,SVM,0.4,4,8,0.5149425287356322,70,33,67,30,"[""{'C': 10, 'kernel': 'rbf'}""]",ratio,True,True
+Move Attribute,ratio_split_single,LogisticRegression,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,True
+Move Attribute,ratio_split_single,RandomForest,0.5,3,6,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratio,True,True
+Move Attribute,ratio_split_single,SVM,0.5,3,6,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratio,True,True
+Move Attribute,ratio_split_single,LogisticRegression,0.5,3,6,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratio,True,True
+Inline Method,MEA,RandomForest,0.2,13,132,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Inline Method,MEA,SVM,0.2,13,132,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Inline Method,MEA,LogisticRegression,0.2,13,132,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Inline Method,MEA,RandomForest,0.3,11,116,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Inline Method,MEA,SVM,0.3,11,116,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Inline Method,MEA,LogisticRegression,0.3,11,116,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Inline Method,MEA,RandomForest,0.4,10,99,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",MEA,False,False
+Inline Method,MEA,SVM,0.4,10,99,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Inline Method,MEA,LogisticRegression,0.4,10,99,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Inline Method,MEA,RandomForest,0.5,8,83,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Inline Method,MEA,SVM,0.5,8,83,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Inline Method,MEA,LogisticRegression,0.5,8,83,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Extract Method,MEA,RandomForest,0.2,85,60,0.5954545454545455,60,59,41,40,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Extract Method,MEA,SVM,0.2,85,60,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Extract Method,MEA,LogisticRegression,0.2,85,60,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Extract Method,MEA,RandomForest,0.3,75,52,0.545516304347826,43,66,34,57,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Extract Method,MEA,SVM,0.3,75,52,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Extract Method,MEA,LogisticRegression,0.3,75,52,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Extract Method,MEA,RandomForest,0.4,64,45,0.5740310077519379,57,58,42,43,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",MEA,False,False
+Extract Method,MEA,SVM,0.4,64,45,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Extract Method,MEA,LogisticRegression,0.4,64,45,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Extract Method,MEA,RandomForest,0.5,53,38,0.488988988988989,46,52,48,54,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Extract Method,MEA,SVM,0.5,53,38,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Extract Method,MEA,LogisticRegression,0.5,53,38,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Class,MEA,RandomForest,0.2,22,123,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",MEA,False,False
+Move Class,MEA,SVM,0.2,22,123,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Class,MEA,LogisticRegression,0.2,22,123,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Class,MEA,RandomForest,0.3,19,108,0.5412234042553192,96,12,88,4,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Move Class,MEA,SVM,0.3,19,108,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Class,MEA,LogisticRegression,0.3,19,108,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Class,MEA,RandomForest,0.4,16,93,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Move Class,MEA,SVM,0.4,16,93,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Class,MEA,LogisticRegression,0.4,16,93,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Class,MEA,RandomForest,0.5,13,78,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Move Class,MEA,SVM,0.5,13,78,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Class,MEA,LogisticRegression,0.5,13,78,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Rename Package,MEA,RandomForest,0.2,6,139,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Rename Package,MEA,SVM,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Rename Package,MEA,LogisticRegression,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Rename Package,MEA,RandomForest,0.3,5,122,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Rename Package,MEA,SVM,0.3,5,122,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Rename Package,MEA,LogisticRegression,0.3,5,122,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Rename Package,MEA,RandomForest,0.4,4,105,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Rename Package,MEA,SVM,0.4,4,105,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Rename Package,MEA,LogisticRegression,0.4,4,105,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Rename Package,MEA,RandomForest,0.5,3,88,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Rename Package,MEA,SVM,0.5,3,88,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Rename Package,MEA,LogisticRegression,0.5,3,88,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Pull Up Method,MEA,RandomForest,0.2,6,139,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Pull Up Method,MEA,SVM,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Pull Up Method,MEA,LogisticRegression,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Pull Up Method,MEA,RandomForest,0.3,6,121,0.4811320754716981,96,0,100,4,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Pull Up Method,MEA,SVM,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Pull Up Method,MEA,LogisticRegression,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Pull Up Method,MEA,RandomForest,0.4,5,104,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Pull Up Method,MEA,SVM,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Pull Up Method,MEA,LogisticRegression,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Pull Up Method,MEA,RandomForest,0.5,4,87,0.4885057471264368,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Pull Up Method,MEA,SVM,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Pull Up Method,MEA,LogisticRegression,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Attribute,MEA,RandomForest,0.2,10,135,0.45714285714285713,91,0,100,9,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Move Attribute,MEA,SVM,0.2,10,135,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Attribute,MEA,LogisticRegression,0.2,10,135,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Attribute,MEA,RandomForest,0.3,8,119,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",MEA,False,False
+Move Attribute,MEA,SVM,0.3,8,119,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Attribute,MEA,LogisticRegression,0.3,8,119,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Attribute,MEA,RandomForest,0.4,7,102,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Move Attribute,MEA,SVM,0.4,7,102,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Attribute,MEA,LogisticRegression,0.4,7,102,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Attribute,MEA,RandomForest,0.5,6,85,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Move Attribute,MEA,SVM,0.5,6,85,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Attribute,MEA,LogisticRegression,0.5,6,85,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Method,MEA,RandomForest,0.2,8,137,0.4714285714285714,94,0,100,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Move Method,MEA,SVM,0.2,8,137,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Method,MEA,LogisticRegression,0.2,8,137,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Method,MEA,RandomForest,0.3,7,120,0.6185897435897436,90,33,67,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",MEA,False,False
+Move Method,MEA,SVM,0.3,7,120,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Method,MEA,LogisticRegression,0.3,7,120,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Method,MEA,RandomForest,0.4,6,103,0.5742753623188406,90,25,75,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Move Method,MEA,SVM,0.4,6,103,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Method,MEA,LogisticRegression,0.4,6,103,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Move Method,MEA,RandomForest,0.5,5,86,0.5767441860465117,95,20,80,5,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Move Method,MEA,SVM,0.5,5,86,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Move Method,MEA,LogisticRegression,0.5,5,86,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Extract Superclass,MEA,RandomForest,0.2,6,139,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Extract Superclass,MEA,SVM,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Extract Superclass,MEA,LogisticRegression,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Extract Superclass,MEA,RandomForest,0.3,6,121,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,False
+Extract Superclass,MEA,SVM,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Extract Superclass,MEA,LogisticRegression,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Extract Superclass,MEA,RandomForest,0.4,5,104,0.4928571428571429,99,0,100,1,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,False,False
+Extract Superclass,MEA,SVM,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Extract Superclass,MEA,LogisticRegression,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Extract Superclass,MEA,RandomForest,0.5,4,87,0.4885057471264368,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,False
+Extract Superclass,MEA,SVM,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,False
+Extract Superclass,MEA,LogisticRegression,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,False
+Inline Method,MEA_single,RandomForest,0.2,11,117,0.4827586206896552,97,0,100,3,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",MEA,False,True
+Inline Method,MEA_single,SVM,0.2,11,117,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Inline Method,MEA_single,LogisticRegression,0.2,11,117,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Inline Method,MEA_single,RandomForest,0.3,10,102,0.48863636363636365,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,False,True
+Inline Method,MEA_single,SVM,0.3,10,102,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Inline Method,MEA_single,LogisticRegression,0.3,10,102,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Inline Method,MEA_single,RandomForest,0.4,8,88,0.49137931034482757,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",MEA,False,True
+Inline Method,MEA_single,SVM,0.4,8,88,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Inline Method,MEA_single,LogisticRegression,0.4,8,88,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Inline Method,MEA_single,RandomForest,0.5,7,73,0.4931506849315068,99,0,100,1,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,False,True
+Inline Method,MEA_single,SVM,0.5,7,73,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Inline Method,MEA_single,LogisticRegression,0.5,7,73,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Extract Method,MEA_single,RandomForest,0.2,78,50,0.4083333333333333,42,40,60,58,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,False,True
+Extract Method,MEA_single,SVM,0.2,78,50,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Extract Method,MEA_single,LogisticRegression,0.2,78,50,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Extract Method,MEA_single,RandomForest,0.3,69,43,0.4691470054446461,42,52,48,58,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,True
+Extract Method,MEA_single,SVM,0.3,69,43,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Extract Method,MEA_single,LogisticRegression,0.3,69,43,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Extract Method,MEA_single,RandomForest,0.4,59,37,0.5205128205128206,40,64,36,60,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,True
+Extract Method,MEA_single,SVM,0.4,59,37,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Extract Method,MEA_single,LogisticRegression,0.4,59,37,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Extract Method,MEA_single,RandomForest,0.5,49,31,0.5039499670836076,35,65,35,65,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,False,True
+Extract Method,MEA_single,SVM,0.5,49,31,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Extract Method,MEA_single,LogisticRegression,0.5,49,31,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Move Class,MEA_single,RandomForest,0.2,14,114,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,True
+Move Class,MEA_single,SVM,0.2,14,114,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Move Class,MEA_single,LogisticRegression,0.2,14,114,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Move Class,MEA_single,RandomForest,0.3,13,99,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,True
+Move Class,MEA_single,SVM,0.3,13,99,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Move Class,MEA_single,LogisticRegression,0.3,13,99,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Move Class,MEA_single,RandomForest,0.4,11,85,0.49122807017543857,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",MEA,False,True
+Move Class,MEA_single,SVM,0.4,11,85,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Move Class,MEA_single,LogisticRegression,0.4,11,85,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Move Class,MEA_single,RandomForest,0.5,9,71,0.49295774647887325,99,0,100,1,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",MEA,False,True
+Move Class,MEA_single,SVM,0.5,9,71,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Move Class,MEA_single,LogisticRegression,0.5,9,71,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Move Attribute,MEA_single,RandomForest,0.2,6,122,0.45161290322580644,90,0,100,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,False,True
+Move Attribute,MEA_single,SVM,0.2,6,122,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Move Attribute,MEA_single,LogisticRegression,0.2,6,122,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Move Attribute,MEA_single,RandomForest,0.3,5,107,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,False,True
+Move Attribute,MEA_single,SVM,0.3,5,107,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Move Attribute,MEA_single,LogisticRegression,0.3,5,107,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Move Attribute,MEA_single,RandomForest,0.4,4,92,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,False,True
+Move Attribute,MEA_single,SVM,0.4,4,92,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Move Attribute,MEA_single,LogisticRegression,0.4,4,92,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Move Attribute,MEA_single,RandomForest,0.5,3,77,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,False,True
+Move Attribute,MEA_single,SVM,0.5,3,77,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,False,True
+Move Attribute,MEA_single,LogisticRegression,0.5,3,77,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,False,True
+Inline Method,MEA_split,RandomForest,0.2,12,24,0.5088028169014085,77,25,75,23,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,True,False
+Inline Method,MEA_split,SVM,0.2,12,24,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Inline Method,MEA_split,LogisticRegression,0.2,12,24,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Inline Method,MEA_split,RandomForest,0.3,11,22,0.3680555555555556,74,0,100,26,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Inline Method,MEA_split,SVM,0.3,11,22,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Inline Method,MEA_split,LogisticRegression,0.3,11,22,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Inline Method,MEA_split,RandomForest,0.4,9,18,0.47731660231660233,67,29,71,33,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",MEA,True,False
+Inline Method,MEA_split,SVM,0.4,9,18,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Inline Method,MEA_split,LogisticRegression,0.4,9,18,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Inline Method,MEA_split,RandomForest,0.5,8,16,0.5508333333333333,73,38,62,27,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Inline Method,MEA_split,SVM,0.5,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Inline Method,MEA_split,LogisticRegression,0.5,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Extract Method,MEA_split,RandomForest,0.2,85,37,0.5215311004784688,32,73,27,68,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Extract Method,MEA_split,SVM,0.2,85,37,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Extract Method,MEA_split,LogisticRegression,0.2,85,37,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Extract Method,MEA_split,RandomForest,0.3,74,37,0.48604465709728867,18,79,21,82,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Extract Method,MEA_split,SVM,0.3,74,37,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Extract Method,MEA_split,LogisticRegression,0.3,74,37,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Extract Method,MEA_split,RandomForest,0.4,64,37,0.5067319461444308,32,70,30,68,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",MEA,True,False
+Extract Method,MEA_split,SVM,0.4,64,37,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Extract Method,MEA_split,LogisticRegression,0.4,64,37,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Extract Method,MEA_split,RandomForest,0.5,53,37,0.5043859649122807,34,67,33,66,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",MEA,True,False
+Extract Method,MEA_split,SVM,0.5,53,37,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Extract Method,MEA_split,LogisticRegression,0.5,53,37,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Class,MEA_split,RandomForest,0.2,21,42,0.6216814159292036,74,50,50,26,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",MEA,True,False
+Move Class,MEA_split,SVM,0.2,21,42,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Class,MEA_split,LogisticRegression,0.2,21,42,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Class,MEA_split,RandomForest,0.3,18,36,0.6778711484593838,69,67,33,31,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",MEA,True,False
+Move Class,MEA_split,SVM,0.3,18,36,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Class,MEA_split,LogisticRegression,0.3,18,36,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Class,MEA_split,RandomForest,0.4,16,32,0.6019955654101996,66,55,45,34,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",MEA,True,False
+Move Class,MEA_split,SVM,0.4,16,32,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Class,MEA_split,LogisticRegression,0.4,16,32,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Class,MEA_split,RandomForest,0.5,13,26,0.6143410852713178,73,50,50,27,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Move Class,MEA_split,SVM,0.5,13,26,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Class,MEA_split,LogisticRegression,0.5,13,26,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Rename Package,MEA_split,RandomForest,0.2,5,10,0.6772727272727272,85,50,50,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Rename Package,MEA_split,SVM,0.2,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Rename Package,MEA_split,LogisticRegression,0.2,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Rename Package,MEA_split,RandomForest,0.3,4,8,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Rename Package,MEA_split,SVM,0.3,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Rename Package,MEA_split,LogisticRegression,0.3,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Rename Package,MEA_split,RandomForest,0.4,4,8,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Rename Package,MEA_split,SVM,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Rename Package,MEA_split,LogisticRegression,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Rename Package,MEA_split,RandomForest,0.5,3,6,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Rename Package,MEA_split,SVM,0.5,3,6,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Rename Package,MEA_split,LogisticRegression,0.5,3,6,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Pull Up Method,MEA_split,RandomForest,0.2,6,12,0.4876543209876543,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Pull Up Method,MEA_split,SVM,0.2,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Pull Up Method,MEA_split,LogisticRegression,0.2,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Pull Up Method,MEA_split,RandomForest,0.3,5,10,0.4268292682926829,85,0,100,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Pull Up Method,MEA_split,SVM,0.3,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Pull Up Method,MEA_split,LogisticRegression,0.3,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Pull Up Method,MEA_split,RandomForest,0.4,4,8,0.6475903614457832,80,50,50,20,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Pull Up Method,MEA_split,SVM,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Pull Up Method,MEA_split,LogisticRegression,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Pull Up Method,MEA_split,RandomForest,0.5,4,8,0.6475903614457832,80,50,50,20,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Pull Up Method,MEA_split,SVM,0.5,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Pull Up Method,MEA_split,LogisticRegression,0.5,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Attribute,MEA_split,RandomForest,0.2,9,18,0.5449561403508771,76,33,67,24,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Move Attribute,MEA_split,SVM,0.2,9,18,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Attribute,MEA_split,LogisticRegression,0.2,9,18,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Attribute,MEA_split,RandomForest,0.3,8,16,0.6461038961038961,79,50,50,21,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Move Attribute,MEA_split,SVM,0.3,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Attribute,MEA_split,LogisticRegression,0.3,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Attribute,MEA_split,RandomForest,0.4,7,14,0.6711538461538462,94,40,60,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Move Attribute,MEA_split,SVM,0.4,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Attribute,MEA_split,LogisticRegression,0.4,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Attribute,MEA_split,RandomForest,0.5,6,12,0.5907172995780591,85,33,67,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,True,False
+Move Attribute,MEA_split,SVM,0.5,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Attribute,MEA_split,LogisticRegression,0.5,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Method,MEA_split,RandomForest,0.2,8,16,0.4583333333333333,92,0,100,8,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Move Method,MEA_split,SVM,0.2,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Method,MEA_split,LogisticRegression,0.2,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Method,MEA_split,RandomForest,0.3,7,14,0.439873417721519,88,0,100,12,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,False
+Move Method,MEA_split,SVM,0.3,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Method,MEA_split,LogisticRegression,0.3,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Method,MEA_split,RandomForest,0.4,6,12,0.390625,78,0,100,22,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,True,False
+Move Method,MEA_split,SVM,0.4,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Method,MEA_split,LogisticRegression,0.4,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Move Method,MEA_split,RandomForest,0.5,5,10,0.44135802469135804,88,0,100,12,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Move Method,MEA_split,SVM,0.5,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Move Method,MEA_split,LogisticRegression,0.5,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Extract Superclass,MEA_split,RandomForest,0.2,6,12,0.5617283950617284,62,50,50,38,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Extract Superclass,MEA_split,SVM,0.2,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Extract Superclass,MEA_split,LogisticRegression,0.2,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Extract Superclass,MEA_split,RandomForest,0.3,5,10,0.44715447154471544,56,33,67,44,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",MEA,True,False
+Extract Superclass,MEA_split,SVM,0.3,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Extract Superclass,MEA_split,LogisticRegression,0.3,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Extract Superclass,MEA_split,RandomForest,0.4,4,8,0.5331325301204819,57,50,50,43,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Extract Superclass,MEA_split,SVM,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Extract Superclass,MEA_split,LogisticRegression,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Extract Superclass,MEA_split,RandomForest,0.5,4,8,0.5331325301204819,57,50,50,43,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,False
+Extract Superclass,MEA_split,SVM,0.5,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,False
+Extract Superclass,MEA_split,LogisticRegression,0.5,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,False
+Inline Method,MEA_split_single,RandomForest,0.2,11,22,0.4032258064516129,81,0,100,19,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",MEA,True,True
+Inline Method,MEA_split_single,SVM,0.2,11,22,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Inline Method,MEA_split_single,LogisticRegression,0.2,11,22,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Inline Method,MEA_split_single,RandomForest,0.3,9,18,0.37890625,76,0,100,24,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,True,True
+Inline Method,MEA_split_single,SVM,0.3,9,18,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Inline Method,MEA_split_single,LogisticRegression,0.3,9,18,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Inline Method,MEA_split_single,RandomForest,0.4,8,16,0.44487179487179485,72,17,83,28,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",MEA,True,True
+Inline Method,MEA_split_single,SVM,0.4,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Inline Method,MEA_split_single,LogisticRegression,0.4,8,16,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Inline Method,MEA_split_single,RandomForest,0.5,7,14,0.38636363636363635,77,0,100,23,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,True
+Inline Method,MEA_split_single,SVM,0.5,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Inline Method,MEA_split_single,LogisticRegression,0.5,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Extract Method,MEA_split_single,RandomForest,0.2,78,31,0.45564516129032256,16,75,25,84,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,True
+Extract Method,MEA_split_single,SVM,0.2,78,31,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Extract Method,MEA_split_single,LogisticRegression,0.2,78,31,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Extract Method,MEA_split_single,RandomForest,0.3,68,31,0.4317204301075269,10,77,23,90,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,True
+Extract Method,MEA_split_single,SVM,0.3,68,31,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Extract Method,MEA_split_single,LogisticRegression,0.3,68,31,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Extract Method,MEA_split_single,RandomForest,0.4,58,31,0.41451612903225804,13,70,30,87,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,True
+Extract Method,MEA_split_single,SVM,0.4,58,31,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Extract Method,MEA_split_single,LogisticRegression,0.4,58,31,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Extract Method,MEA_split_single,RandomForest,0.5,49,31,0.5421329822251482,45,63,37,55,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,True
+Extract Method,MEA_split_single,SVM,0.5,49,31,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Extract Method,MEA_split_single,LogisticRegression,0.5,49,31,0.5,0,100,0,100,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Move Class,MEA_split_single,RandomForest,0.2,14,28,0.5504385964912281,85,25,75,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",MEA,True,True
+Move Class,MEA_split_single,SVM,0.2,14,28,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Move Class,MEA_split_single,LogisticRegression,0.2,14,28,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Move Class,MEA_split_single,RandomForest,0.3,12,24,0.5056497175141242,68,33,67,32,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,True,True
+Move Class,MEA_split_single,SVM,0.3,12,24,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Move Class,MEA_split_single,LogisticRegression,0.3,12,24,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Move Class,MEA_split_single,RandomForest,0.4,10,20,0.5635245901639344,88,25,75,12,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",MEA,True,True
+Move Class,MEA_split_single,SVM,0.4,10,20,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Move Class,MEA_split_single,LogisticRegression,0.4,10,20,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Move Class,MEA_split_single,RandomForest,0.5,9,18,0.5273297491039427,94,11,89,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,True,True
+Move Class,MEA_split_single,SVM,0.5,9,18,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Move Class,MEA_split_single,LogisticRegression,0.5,9,18,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Move Attribute,MEA_split_single,RandomForest,0.2,5,10,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",MEA,True,True
+Move Attribute,MEA_split_single,SVM,0.2,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Move Attribute,MEA_split_single,LogisticRegression,0.2,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Move Attribute,MEA_split_single,RandomForest,0.3,4,8,0.48390804597701154,63,33,67,37,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,True,True
+Move Attribute,MEA_split_single,SVM,0.3,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Move Attribute,MEA_split_single,LogisticRegression,0.3,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Move Attribute,MEA_split_single,RandomForest,0.4,4,8,0.48390804597701154,63,33,67,37,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",MEA,True,True
+Move Attribute,MEA_split_single,SVM,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Move Attribute,MEA_split_single,LogisticRegression,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Move Attribute,MEA_split_single,RandomForest,0.5,3,6,0.4013605442176871,80,0,100,20,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",MEA,True,True
+Move Attribute,MEA_split_single,SVM,0.5,3,6,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",MEA,True,True
+Move Attribute,MEA_split_single,LogisticRegression,0.5,3,6,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",MEA,True,True
+Inline Method,count,RandomForest,0.2,13,132,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,False,False
+Inline Method,count,SVM,0.2,13,132,0.4852941176470588,97,0,100,3,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Inline Method,count,LogisticRegression,0.2,13,132,0.6519607843137255,97,33,67,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Inline Method,count,RandomForest,0.3,11,116,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,False,False
+Inline Method,count,SVM,0.3,11,116,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,False
+Inline Method,count,LogisticRegression,0.3,11,116,0.57,94,20,80,6,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Inline Method,count,RandomForest,0.4,10,99,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Inline Method,count,SVM,0.4,10,99,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,False
+Inline Method,count,LogisticRegression,0.4,10,99,0.5609452736318408,96,17,83,4,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Inline Method,count,RandomForest,0.5,8,83,0.5625,100,12,88,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,False,False
+Inline Method,count,SVM,0.5,8,83,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,False
+Inline Method,count,LogisticRegression,0.5,8,83,0.5384036144578312,95,12,88,5,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Extract Method,count,RandomForest,0.2,85,60,0.7439393939393939,53,95,5,47,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,False,False
+Extract Method,count,SVM,0.2,85,60,0.543939393939394,13,95,5,87,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Extract Method,count,LogisticRegression,0.2,85,60,0.5545454545454546,20,91,9,80,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Extract Method,count,RandomForest,0.3,75,52,0.6983695652173914,52,88,12,48,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,False,False
+Extract Method,count,SVM,0.3,75,52,0.5278532608695652,9,97,3,91,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Extract Method,count,LogisticRegression,0.3,75,52,0.5339673913043478,13,94,6,87,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Extract Method,count,RandomForest,0.4,64,45,0.5968992248062015,33,86,14,67,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Extract Method,count,SVM,0.4,64,45,0.5,0,100,0,100,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,False
+Extract Method,count,LogisticRegression,0.4,64,45,0.5352713178294574,23,84,16,77,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Extract Method,count,RandomForest,0.5,53,38,0.6143643643643644,43,80,20,57,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Extract Method,count,SVM,0.5,53,38,0.549049049049049,14,96,4,86,"[""{'C': 10, 'kernel': 'rbf'}""]",count,False,False
+Extract Method,count,LogisticRegression,0.5,53,38,0.5155155155155156,22,81,19,78,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Class,count,RandomForest,0.2,22,123,0.453125,91,0,100,9,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Class,count,SVM,0.2,22,123,0.584375,97,20,80,3,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Move Class,count,LogisticRegression,0.2,22,123,0.584375,97,20,80,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Class,count,RandomForest,0.3,19,108,0.4787234042553192,96,0,100,4,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,False,False
+Move Class,count,SVM,0.3,19,108,0.5518617021276595,98,12,88,2,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Move Class,count,LogisticRegression,0.3,19,108,0.6143617021276595,98,25,75,2,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Class,count,RandomForest,0.4,16,93,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Class,count,SVM,0.4,16,93,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,False
+Move Class,count,LogisticRegression,0.4,16,93,0.6121700879765396,95,27,73,5,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Class,count,RandomForest,0.5,13,78,0.5292207792207793,99,7,93,1,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Class,count,SVM,0.5,13,78,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,False
+Move Class,count,LogisticRegression,0.5,13,78,0.6298701298701299,97,29,71,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Rename Package,count,RandomForest,0.2,6,139,1.0,100,100,0,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Rename Package,count,SVM,0.2,6,139,0.9861111111111112,97,100,0,3,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Rename Package,count,LogisticRegression,0.2,6,139,1.0,100,100,0,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Rename Package,count,RandomForest,0.3,5,122,0.75,100,50,50,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Rename Package,count,SVM,0.3,5,122,0.75,100,50,50,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Rename Package,count,LogisticRegression,0.3,5,122,0.75,100,50,50,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Rename Package,count,RandomForest,0.4,4,105,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Rename Package,count,SVM,0.4,4,105,0.4857142857142857,97,0,100,3,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Rename Package,count,LogisticRegression,0.4,4,105,0.6595238095238095,99,33,67,1,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Rename Package,count,RandomForest,0.5,3,88,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Rename Package,count,SVM,0.5,3,88,0.75,100,50,50,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Rename Package,count,LogisticRegression,0.5,3,88,0.7442528735632183,99,50,50,1,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Pull Up Method,count,RandomForest,0.2,6,139,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,False,False
+Pull Up Method,count,SVM,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Pull Up Method,count,LogisticRegression,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Pull Up Method,count,RandomForest,0.3,6,121,0.49056603773584906,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Pull Up Method,count,SVM,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Pull Up Method,count,LogisticRegression,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Pull Up Method,count,RandomForest,0.4,5,104,0.4928571428571429,99,0,100,1,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Pull Up Method,count,SVM,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Pull Up Method,count,LogisticRegression,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Pull Up Method,count,RandomForest,0.5,4,87,0.4885057471264368,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Pull Up Method,count,SVM,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Pull Up Method,count,LogisticRegression,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Attribute,count,RandomForest,0.2,10,135,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Attribute,count,SVM,0.2,10,135,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,False
+Move Attribute,count,LogisticRegression,0.2,10,135,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Attribute,count,RandomForest,0.3,8,119,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Attribute,count,SVM,0.3,8,119,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,False
+Move Attribute,count,LogisticRegression,0.3,8,119,0.6151960784313726,98,25,75,2,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Attribute,count,RandomForest,0.4,7,102,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Attribute,count,SVM,0.4,7,102,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Move Attribute,count,LogisticRegression,0.4,7,102,0.5852941176470589,97,20,80,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Attribute,count,RandomForest,0.5,6,85,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Attribute,count,SVM,0.5,6,85,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Move Attribute,count,LogisticRegression,0.5,6,85,0.5774509803921569,99,17,83,1,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Method,count,RandomForest,0.2,8,137,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Method,count,SVM,0.2,8,137,0.4857142857142857,97,0,100,3,"[""{'C': 10, 'kernel': 'rbf'}""]",count,False,False
+Move Method,count,LogisticRegression,0.2,8,137,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Method,count,RandomForest,0.3,7,120,0.6378205128205128,94,33,67,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Method,count,SVM,0.3,7,120,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,False
+Move Method,count,LogisticRegression,0.3,7,120,0.4807692307692308,96,0,100,4,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Method,count,RandomForest,0.4,6,103,0.588768115942029,93,25,75,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Method,count,SVM,0.4,6,103,0.463768115942029,93,0,100,7,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Move Method,count,LogisticRegression,0.4,6,103,0.463768115942029,93,0,100,7,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Move Method,count,RandomForest,0.5,5,86,0.5767441860465117,95,20,80,5,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Move Method,count,SVM,0.5,5,86,0.47674418604651164,95,0,100,5,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Move Method,count,LogisticRegression,0.5,5,86,0.5709302325581396,94,20,80,6,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Extract Superclass,count,RandomForest,0.2,6,139,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Extract Superclass,count,SVM,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,False
+Extract Superclass,count,LogisticRegression,0.2,6,139,0.4857142857142857,97,0,100,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Extract Superclass,count,RandomForest,0.3,6,121,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Extract Superclass,count,SVM,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Extract Superclass,count,LogisticRegression,0.3,6,121,0.4716981132075472,94,0,100,6,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Extract Superclass,count,RandomForest,0.4,5,104,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Extract Superclass,count,SVM,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Extract Superclass,count,LogisticRegression,0.4,5,104,0.4785714285714286,96,0,100,4,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Extract Superclass,count,RandomForest,0.5,4,87,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,False
+Extract Superclass,count,SVM,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,False
+Extract Superclass,count,LogisticRegression,0.5,4,87,0.4827586206896552,97,0,100,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,False
+Inline Method,count_single,RandomForest,0.2,11,117,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Inline Method,count_single,SVM,0.2,11,117,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,True
+Inline Method,count_single,LogisticRegression,0.2,11,117,0.4482758620689655,90,0,100,10,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Inline Method,count_single,RandomForest,0.3,10,102,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,False,True
+Inline Method,count_single,SVM,0.3,10,102,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Inline Method,count_single,LogisticRegression,0.3,10,102,0.4659090909090909,93,0,100,7,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Inline Method,count_single,RandomForest,0.4,8,88,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,False,True
+Inline Method,count_single,SVM,0.4,8,88,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,True
+Inline Method,count_single,LogisticRegression,0.4,8,88,0.5574712643678161,95,17,83,5,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Inline Method,count_single,RandomForest,0.5,7,73,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,False,True
+Inline Method,count_single,SVM,0.5,7,73,0.5,100,0,100,0,"[""{'C': 1, 'kernel': 'linear'}""]",count,False,True
+Inline Method,count_single,LogisticRegression,0.5,7,73,0.550880626223092,96,14,86,4,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Extract Method,count_single,RandomForest,0.2,78,50,0.8083333333333333,67,95,5,33,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",count,False,True
+Extract Method,count_single,SVM,0.2,78,50,0.6,25,95,5,75,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Extract Method,count_single,LogisticRegression,0.2,78,50,0.6,25,95,5,75,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Extract Method,count_single,RandomForest,0.3,69,43,0.7549909255898366,58,93,7,42,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",count,False,True
+Extract Method,count_single,SVM,0.3,69,43,0.5707803992740472,21,93,7,79,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Extract Method,count_single,LogisticRegression,0.3,69,43,0.5707803992740472,21,93,7,79,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Extract Method,count_single,RandomForest,0.4,59,37,0.6830769230769231,52,85,15,48,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,False,True
+Extract Method,count_single,SVM,0.4,59,37,0.5317948717948718,32,74,26,68,"[""{'C': 10, 'kernel': 'rbf'}""]",count,False,True
+Extract Method,count_single,LogisticRegression,0.4,59,37,0.49743589743589745,20,79,21,80,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Extract Method,count_single,RandomForest,0.5,49,31,0.599078341013825,48,71,29,52,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,False,True
+Extract Method,count_single,SVM,0.5,49,31,0.5329163923633969,29,78,22,71,"[""{'C': 1, 'kernel': 'rbf'}""]",count,False,True
+Extract Method,count_single,LogisticRegression,0.5,49,31,0.5269914417379855,26,80,20,74,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Move Class,count_single,RandomForest,0.2,14,114,0.4642857142857143,93,0,100,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",count,False,True
+Move Class,count_single,SVM,0.2,14,114,0.5,100,0,100,0,"[""{'C': 10, 'kernel': 'rbf'}""]",count,False,True
+Move Class,count_single,LogisticRegression,0.2,14,114,0.6071428571428572,96,25,75,4,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Move Class,count_single,RandomForest,0.3,13,99,0.45348837209302323,91,0,100,9,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,False,True
+Move Class,count_single,SVM,0.3,13,99,0.5,100,0,100,0,"[""{'C': 10, 'kernel': 'rbf'}""]",count,False,True
+Move Class,count_single,LogisticRegression,0.3,13,99,0.5651162790697675,93,20,80,7,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Move Class,count_single,RandomForest,0.4,11,85,0.5451127819548872,95,14,86,5,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Move Class,count_single,SVM,0.4,11,85,0.49122807017543857,98,0,100,2,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Move Class,count_single,LogisticRegression,0.4,11,85,0.5451127819548872,95,14,86,5,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Move Class,count_single,RandomForest,0.5,9,71,0.5970266040688577,97,22,78,3,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Move Class,count_single,SVM,0.5,9,71,0.5555555555555556,100,11,89,0,"[""{'C': 10, 'kernel': 'rbf'}""]",count,False,True
+Move Class,count_single,LogisticRegression,0.5,9,71,0.5899843505477308,96,22,78,4,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Move Attribute,count_single,RandomForest,0.2,6,122,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Move Attribute,count_single,SVM,0.2,6,122,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,True
+Move Attribute,count_single,LogisticRegression,0.2,6,122,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Move Attribute,count_single,RandomForest,0.3,5,107,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Move Attribute,count_single,SVM,0.3,5,107,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,True
+Move Attribute,count_single,LogisticRegression,0.3,5,107,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Move Attribute,count_single,RandomForest,0.4,4,92,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Move Attribute,count_single,SVM,0.4,4,92,0.4918032786885246,98,0,100,2,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Move Attribute,count_single,LogisticRegression,0.4,4,92,0.4918032786885246,98,0,100,2,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Move Attribute,count_single,RandomForest,0.5,3,77,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,False,True
+Move Attribute,count_single,SVM,0.5,3,77,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,False,True
+Move Attribute,count_single,LogisticRegression,0.5,3,77,0.5,100,0,100,0,"[""{'C': 10, 'max"", ""iter': 100}""]",count,False,True
+Inline Method,count_split,RandomForest,0.2,12,24,0.5334507042253521,82,25,75,18,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,True,False
+Inline Method,count_split,SVM,0.2,12,24,0.6549295774647887,81,50,50,19,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Inline Method,count_split,LogisticRegression,0.2,12,24,0.5334507042253521,82,25,75,18,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Inline Method,count_split,RandomForest,0.3,11,22,0.7409722222222221,88,60,40,12,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Inline Method,count_split,SVM,0.3,11,22,0.5097222222222222,82,20,80,18,"[""{'C': 1, 'kernel': 'linear'}""]",count,True,False
+Inline Method,count_split,LogisticRegression,0.3,11,22,0.5993055555555555,80,40,60,20,"[""{'C': 10, 'max"", ""iter': 100}""]",count,True,False
+Inline Method,count_split,RandomForest,0.4,9,18,0.7861969111969112,86,71,29,14,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",count,True,False
+Inline Method,count_split,SVM,0.4,9,18,0.6505791505791505,73,57,43,27,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Inline Method,count_split,LogisticRegression,0.4,9,18,0.5926640926640927,76,43,57,24,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Inline Method,count_split,RandomForest,0.5,8,16,0.7125,80,62,38,20,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Inline Method,count_split,SVM,0.5,8,16,0.6991666666666667,77,62,38,23,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Inline Method,count_split,LogisticRegression,0.5,8,16,0.5183333333333333,79,25,75,21,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Extract Method,count_split,RandomForest,0.2,85,37,0.5669856459330144,32,82,18,68,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,True,False
+Extract Method,count_split,SVM,0.2,85,37,0.5263157894736842,5,100,0,95,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Extract Method,count_split,LogisticRegression,0.2,85,37,0.5167464114832536,8,95,5,92,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Extract Method,count_split,RandomForest,0.3,74,37,0.6064593301435407,39,82,18,61,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,True,False
+Extract Method,count_split,SVM,0.3,74,37,0.511164274322169,5,97,3,95,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Extract Method,count_split,LogisticRegression,0.3,74,37,0.48086124401913877,5,91,9,95,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Extract Method,count_split,RandomForest,0.4,64,37,0.6190330477356181,45,79,21,55,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,True,False
+Extract Method,count_split,SVM,0.4,64,37,0.5030599755201959,5,95,5,95,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Extract Method,count_split,LogisticRegression,0.4,64,37,0.5061199510403916,11,91,9,89,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Extract Method,count_split,RandomForest,0.5,53,37,0.6111111111111112,50,72,28,50,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",count,True,False
+Extract Method,count_split,SVM,0.5,53,37,0.49951267056530213,18,81,19,82,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Extract Method,count_split,LogisticRegression,0.5,53,37,0.5097465886939572,32,70,30,68,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Class,count_split,RandomForest,0.2,21,42,0.7448377581120944,82,67,33,18,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",count,True,False
+Move Class,count_split,SVM,0.2,21,42,0.6224188790560472,91,33,67,9,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Move Class,count_split,LogisticRegression,0.2,21,42,0.6047197640117994,88,33,67,12,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Class,count_split,RandomForest,0.3,18,36,0.7324929971988796,80,67,33,20,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,True,False
+Move Class,count_split,SVM,0.3,18,36,0.6760037348272643,91,44,56,9,"[""{'C': 10, 'kernel': 'rbf'}""]",count,True,False
+Move Class,count_split,LogisticRegression,0.3,18,36,0.6549953314659197,87,44,56,13,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Class,count_split,RandomForest,0.4,16,32,0.6995565410199556,85,55,45,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,True,False
+Move Class,count_split,SVM,0.4,16,32,0.7409460458240946,85,64,36,15,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Move Class,count_split,LogisticRegression,0.4,16,32,0.6622320768662232,87,45,55,13,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Class,count_split,RandomForest,0.5,13,26,0.732281284606866,82,64,36,18,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,True,False
+Move Class,count_split,SVM,0.5,13,26,0.6359357696566998,91,36,64,9,"[""{'C': 10, 'kernel': 'rbf'}""]",count,True,False
+Move Class,count_split,LogisticRegression,0.5,13,26,0.636766334440753,84,43,57,16,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Rename Package,count_split,RandomForest,0.2,5,10,0.9606060606060607,92,100,0,8,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Rename Package,count_split,SVM,0.2,5,10,0.9606060606060607,92,100,0,8,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Rename Package,count_split,LogisticRegression,0.2,5,10,0.9636363636363636,93,100,0,7,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Rename Package,count_split,RandomForest,0.3,4,8,0.4820359281437126,96,0,100,4,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Rename Package,count_split,SVM,0.3,4,8,0.9610778443113772,92,100,0,8,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Rename Package,count_split,LogisticRegression,0.3,4,8,0.9640718562874251,93,100,0,7,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Rename Package,count_split,RandomForest,0.4,4,8,0.4820359281437126,96,0,100,4,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Rename Package,count_split,SVM,0.4,4,8,0.9610778443113772,92,100,0,8,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Rename Package,count_split,LogisticRegression,0.4,4,8,0.9640718562874251,93,100,0,7,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Rename Package,count_split,RandomForest,0.5,3,6,0.9260355029585798,85,100,0,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Rename Package,count_split,SVM,0.5,3,6,0.9615384615384616,92,100,0,8,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Rename Package,count_split,LogisticRegression,0.5,3,6,0.9526627218934911,91,100,0,9,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Pull Up Method,count_split,RandomForest,0.2,6,12,0.6296296296296297,76,50,50,24,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",count,True,False
+Pull Up Method,count_split,SVM,0.2,6,12,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,True,False
+Pull Up Method,count_split,LogisticRegression,0.2,6,12,0.30246913580246915,60,0,100,40,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Pull Up Method,count_split,RandomForest,0.3,5,10,0.49390243902439024,99,0,100,1,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,True,False
+Pull Up Method,count_split,SVM,0.3,5,10,0.2896341463414634,58,0,100,42,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Pull Up Method,count_split,LogisticRegression,0.3,5,10,0.2926829268292683,59,0,100,41,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Pull Up Method,count_split,RandomForest,0.4,4,8,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,True,False
+Pull Up Method,count_split,SVM,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,True,False
+Pull Up Method,count_split,LogisticRegression,0.4,4,8,0.4623493975903614,67,25,75,33,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Pull Up Method,count_split,RandomForest,0.5,4,8,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,True,False
+Pull Up Method,count_split,SVM,0.5,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,True,False
+Pull Up Method,count_split,LogisticRegression,0.5,4,8,0.4623493975903614,67,25,75,33,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Attribute,count_split,RandomForest,0.2,9,18,0.587719298245614,84,33,67,16,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Move Attribute,count_split,SVM,0.2,9,18,0.6206140350877193,91,33,67,9,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Move Attribute,count_split,LogisticRegression,0.2,9,18,0.6173245614035088,90,33,67,10,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Attribute,count_split,RandomForest,0.3,8,16,0.6396103896103896,78,50,50,22,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Move Attribute,count_split,SVM,0.3,8,16,0.6818181818181819,86,50,50,14,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Move Attribute,count_split,LogisticRegression,0.3,8,16,0.6883116883116883,88,50,50,12,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Attribute,count_split,RandomForest,0.4,7,14,0.6647435897435898,93,40,60,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Move Attribute,count_split,SVM,0.4,7,14,0.6326923076923077,87,40,60,13,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Move Attribute,count_split,LogisticRegression,0.4,7,14,0.6358974358974359,87,40,60,13,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Attribute,count_split,RandomForest,0.5,6,12,0.6445147679324894,96,33,67,4,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Move Attribute,count_split,SVM,0.5,6,12,0.5970464135021097,86,33,67,14,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Move Attribute,count_split,LogisticRegression,0.5,6,12,0.6065400843881856,88,33,67,12,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Method,count_split,RandomForest,0.2,8,16,0.7083333333333333,92,50,50,8,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Move Method,count_split,SVM,0.2,8,16,0.46474358974358976,93,0,100,7,"[""{'C': 1, 'kernel': 'rbf'}""]",count,True,False
+Move Method,count_split,LogisticRegression,0.2,8,16,0.40064102564102566,80,0,100,20,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Method,count_split,RandomForest,0.3,7,14,0.46835443037974683,94,0,100,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,True,False
+Move Method,count_split,SVM,0.3,7,14,0.4651898734177215,93,0,100,7,"[""{'C': 1, 'kernel': 'rbf'}""]",count,True,False
+Move Method,count_split,LogisticRegression,0.3,7,14,0.38924050632911394,78,0,100,22,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Method,count_split,RandomForest,0.4,6,12,0.7,90,50,50,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Move Method,count_split,SVM,0.4,6,12,0.46875,94,0,100,6,"[""{'C': 1, 'kernel': 'rbf'}""]",count,True,False
+Move Method,count_split,LogisticRegression,0.4,6,12,0.3875,78,0,100,22,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Move Method,count_split,RandomForest,0.5,5,10,0.41358024691358025,83,0,100,17,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Move Method,count_split,SVM,0.5,5,10,0.4691358024691358,94,0,100,6,"[""{'C': 1, 'kernel': 'rbf'}""]",count,True,False
+Move Method,count_split,LogisticRegression,0.5,5,10,0.36728395061728397,73,0,100,27,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Extract Superclass,count_split,RandomForest,0.2,6,12,0.3611111111111111,72,0,100,28,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Extract Superclass,count_split,SVM,0.2,6,12,0.3549382716049383,71,0,100,29,"[""{'C': 10, 'kernel': 'rbf'}""]",count,True,False
+Extract Superclass,count_split,LogisticRegression,0.2,6,12,0.3765432098765432,75,0,100,25,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,False
+Extract Superclass,count_split,RandomForest,0.3,5,10,0.38109756097560976,76,0,100,24,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Extract Superclass,count_split,SVM,0.3,5,10,0.3932926829268293,79,0,100,21,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Extract Superclass,count_split,LogisticRegression,0.3,5,10,0.39634146341463417,79,0,100,21,"[""{'C': 10, 'max"", ""iter': 100}""]",count,True,False
+Extract Superclass,count_split,RandomForest,0.4,4,8,0.5105421686746988,77,25,75,23,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Extract Superclass,count_split,SVM,0.4,4,8,0.5195783132530121,79,25,75,21,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Extract Superclass,count_split,LogisticRegression,0.4,4,8,0.5225903614457832,80,25,75,20,"[""{'C': 10, 'max"", ""iter': 100}""]",count,True,False
+Extract Superclass,count_split,RandomForest,0.5,4,8,0.5105421686746988,77,25,75,23,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,False
+Extract Superclass,count_split,SVM,0.5,4,8,0.5195783132530121,79,25,75,21,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,False
+Extract Superclass,count_split,LogisticRegression,0.5,4,8,0.5225903614457832,80,25,75,20,"[""{'C': 10, 'max"", ""iter': 100}""]",count,True,False
+Inline Method,count_split_single,RandomForest,0.2,11,22,0.7567204301075269,85,67,33,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,True
+Inline Method,count_split_single,SVM,0.2,11,22,0.6438172043010753,62,67,33,38,"[""{'C': 1, 'kernel': 'linear'}""]",count,True,True
+Inline Method,count_split_single,LogisticRegression,0.2,11,22,0.6397849462365591,61,67,33,39,"[""{'C': 1, 'max"", ""iter': 100}""]",count,True,True
+Inline Method,count_split_single,RandomForest,0.3,9,18,0.590625,78,40,60,22,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",count,True,True
+Inline Method,count_split_single,SVM,0.3,9,18,0.590625,78,40,60,22,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Inline Method,count_split_single,LogisticRegression,0.3,9,18,0.6828125,77,60,40,23,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Inline Method,count_split_single,RandomForest,0.4,8,16,0.8551282051282052,88,83,17,12,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",count,True,True
+Inline Method,count_split_single,SVM,0.4,8,16,0.6423076923076922,78,50,50,22,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Inline Method,count_split_single,LogisticRegression,0.4,8,16,0.7256410256410256,78,67,33,22,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Inline Method,count_split_single,RandomForest,0.5,7,14,0.6726190476190476,92,43,57,8,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,True
+Inline Method,count_split_single,SVM,0.5,7,14,0.6796536796536796,79,57,43,21,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Inline Method,count_split_single,LogisticRegression,0.5,7,14,0.6006493506493507,77,43,57,23,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Extract Method,count_split_single,RandomForest,0.2,78,31,0.5701612903225807,29,85,15,71,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,True
+Extract Method,count_split_single,SVM,0.2,78,31,0.5379032258064516,23,85,15,77,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Extract Method,count_split_single,LogisticRegression,0.2,78,31,0.5540322580645161,26,85,15,74,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Extract Method,count_split_single,RandomForest,0.3,68,31,0.5618279569892474,29,83,17,71,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",count,True,True
+Extract Method,count_split_single,SVM,0.3,68,31,0.5629032258064516,23,90,10,77,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Extract Method,count_split_single,LogisticRegression,0.3,68,31,0.5951612903225807,29,90,10,71,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Extract Method,count_split_single,RandomForest,0.4,58,31,0.6455645161290322,52,78,22,48,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,True
+Extract Method,count_split_single,SVM,0.4,58,31,0.5665322580645161,26,88,12,74,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Extract Method,count_split_single,LogisticRegression,0.4,58,31,0.6149193548387097,35,88,12,65,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Extract Method,count_split_single,RandomForest,0.5,49,31,0.6152073732718895,52,71,29,48,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,True
+Extract Method,count_split_single,SVM,0.5,49,31,0.5576036866359446,26,86,14,74,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Extract Method,count_split_single,LogisticRegression,0.5,49,31,0.6280447662936143,42,84,16,58,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Move Class,count_split_single,RandomForest,0.2,14,28,0.8092105263157895,87,75,25,13,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",count,True,True
+Move Class,count_split_single,SVM,0.2,14,28,0.4342105263157895,87,0,100,13,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Move Class,count_split_single,LogisticRegression,0.2,14,28,0.6798245614035088,86,50,50,14,"[""{'C': 1, 'max"", ""iter': 100}""]",count,True,True
+Move Class,count_split_single,RandomForest,0.3,12,24,0.6864406779661016,87,50,50,13,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,True
+Move Class,count_split_single,SVM,0.3,12,24,0.577683615819209,82,33,67,18,"[""{'C': 1, 'kernel': 'linear'}""]",count,True,True
+Move Class,count_split_single,LogisticRegression,0.3,12,24,0.5692090395480226,81,33,67,19,"[""{'C': 1, 'max"", ""iter': 100}""]",count,True,True
+Move Class,count_split_single,RandomForest,0.4,10,20,0.7008196721311475,90,50,50,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",count,True,True
+Move Class,count_split_single,SVM,0.4,10,20,0.6270491803278688,75,50,50,25,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Move Class,count_split_single,LogisticRegression,0.4,10,20,0.6055327868852459,84,38,62,16,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Move Class,count_split_single,RandomForest,0.5,9,18,0.5667562724014337,91,22,78,9,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,True
+Move Class,count_split_single,SVM,0.5,9,18,0.6568100358422939,76,56,44,24,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Move Class,count_split_single,LogisticRegression,0.5,9,18,0.6415770609318996,84,44,56,16,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Move Attribute,count_split_single,RandomForest,0.2,5,10,0.486013986013986,97,0,100,3,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,True,True
+Move Attribute,count_split_single,SVM,0.2,5,10,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,True,True
+Move Attribute,count_split_single,LogisticRegression,0.2,5,10,0.6171328671328671,73,50,50,27,"[""{'C': 1, 'max"", ""iter': 100}""]",count,True,True
+Move Attribute,count_split_single,RandomForest,0.3,4,8,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,True,True
+Move Attribute,count_split_single,SVM,0.3,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,True,True
+Move Attribute,count_split_single,LogisticRegression,0.3,4,8,0.4494252873563218,57,33,67,43,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Move Attribute,count_split_single,RandomForest,0.4,4,8,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",count,True,True
+Move Attribute,count_split_single,SVM,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",count,True,True
+Move Attribute,count_split_single,LogisticRegression,0.4,4,8,0.4494252873563218,57,33,67,43,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,True,True
+Move Attribute,count_split_single,RandomForest,0.5,3,6,0.3469387755102041,69,0,100,31,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,True,True
+Move Attribute,count_split_single,SVM,0.5,3,6,0.22448979591836735,45,0,100,55,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,True,True
+Move Attribute,count_split_single,LogisticRegression,0.5,3,6,0.3835034013605442,52,25,75,48,"[""{'C': 1, 'max"", ""iter': 100}""]",count,True,True
+Inline Method,ratiocount,RandomForest,0.2,13,132,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Inline Method,ratiocount,SVM,0.2,13,132,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Inline Method,ratiocount,LogisticRegression,0.2,13,132,0.6519607843137255,97,33,67,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Inline Method,ratiocount,RandomForest,0.3,11,116,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,False,False
+Inline Method,ratiocount,SVM,0.3,11,116,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Inline Method,ratiocount,LogisticRegression,0.3,11,116,0.58,96,20,80,4,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Inline Method,ratiocount,RandomForest,0.4,10,99,0.4925373134328358,99,0,100,1,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Inline Method,ratiocount,SVM,0.4,10,99,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Inline Method,ratiocount,LogisticRegression,0.4,10,99,0.6293532338308457,93,33,67,7,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,False,False
+Inline Method,ratiocount,RandomForest,0.5,8,83,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Inline Method,ratiocount,SVM,0.5,8,83,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Inline Method,ratiocount,LogisticRegression,0.5,8,83,0.6009036144578312,95,25,75,5,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Extract Method,ratiocount,RandomForest,0.2,85,60,0.6530303030303031,53,77,23,47,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Extract Method,ratiocount,SVM,0.2,85,60,0.5772727272727273,20,95,5,80,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,False,False
+Extract Method,ratiocount,LogisticRegression,0.2,85,60,0.5545454545454546,20,91,9,80,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Extract Method,ratiocount,RandomForest,0.3,75,52,0.6331521739130435,39,88,12,61,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Extract Method,ratiocount,SVM,0.3,75,52,0.5495923913043478,13,97,3,87,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,False,False
+Extract Method,ratiocount,LogisticRegression,0.3,75,52,0.5400815217391304,17,91,9,83,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Extract Method,ratiocount,RandomForest,0.4,64,45,0.6352713178294573,43,84,16,57,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Extract Method,ratiocount,SVM,0.4,64,45,0.5468992248062016,23,86,14,77,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,False,False
+Extract Method,ratiocount,LogisticRegression,0.4,64,45,0.601937984496124,37,84,16,63,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Extract Method,ratiocount,RandomForest,0.5,53,38,0.5830830830830831,35,81,19,65,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Extract Method,ratiocount,SVM,0.5,53,38,0.5297797797797797,19,87,13,81,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,False,False
+Extract Method,ratiocount,LogisticRegression,0.5,53,38,0.5703203203203203,27,87,13,73,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Class,ratiocount,RandomForest,0.2,22,123,0.46875,94,0,100,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratiocount,False,False
+Move Class,ratiocount,SVM,0.2,22,123,0.584375,97,20,80,3,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Move Class,ratiocount,LogisticRegression,0.2,22,123,0.584375,97,20,80,3,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Class,ratiocount,RandomForest,0.3,19,108,0.48936170212765956,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Move Class,ratiocount,SVM,0.3,19,108,0.5518617021276595,98,12,88,2,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,False,False
+Move Class,ratiocount,LogisticRegression,0.3,19,108,0.5518617021276595,98,12,88,2,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Class,ratiocount,RandomForest,0.4,16,93,0.49193548387096775,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,False,False
+Move Class,ratiocount,SVM,0.4,16,93,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Move Class,ratiocount,LogisticRegression,0.4,16,93,0.5747800586510264,97,18,82,3,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Class,ratiocount,RandomForest,0.5,13,78,0.5162337662337663,96,7,93,4,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,False,False
+Move Class,ratiocount,SVM,0.5,13,78,0.5292207792207793,99,7,93,1,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Move Class,ratiocount,LogisticRegression,0.5,13,78,0.5292207792207793,99,7,93,1,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Rename Package,ratiocount,RandomForest,0.2,6,139,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Rename Package,ratiocount,SVM,0.2,6,139,0.9861111111111112,97,100,0,3,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Rename Package,ratiocount,LogisticRegression,0.2,6,139,0.9861111111111112,97,100,0,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Rename Package,ratiocount,RandomForest,0.3,5,122,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Rename Package,ratiocount,SVM,0.3,5,122,0.7311320754716981,96,50,50,4,"[""{'C': 1, 'kernel': 'linear'}""]",ratiocount,False,False
+Rename Package,ratiocount,LogisticRegression,0.3,5,122,0.7311320754716981,96,50,50,4,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,False,False
+Rename Package,ratiocount,RandomForest,0.4,4,105,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Rename Package,ratiocount,SVM,0.4,4,105,0.6595238095238095,99,33,67,1,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Rename Package,ratiocount,LogisticRegression,0.4,4,105,0.6666666666666666,100,33,67,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Rename Package,ratiocount,RandomForest,0.5,3,88,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Rename Package,ratiocount,SVM,0.5,3,88,0.7442528735632183,99,50,50,1,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Rename Package,ratiocount,LogisticRegression,0.5,3,88,0.7442528735632183,99,50,50,1,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,False,False
+Pull Up Method,ratiocount,RandomForest,0.2,6,139,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,False,False
+Pull Up Method,ratiocount,SVM,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Pull Up Method,ratiocount,LogisticRegression,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Pull Up Method,ratiocount,RandomForest,0.3,6,121,0.49056603773584906,98,0,100,2,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Pull Up Method,ratiocount,SVM,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Pull Up Method,ratiocount,LogisticRegression,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Pull Up Method,ratiocount,RandomForest,0.4,5,104,0.4928571428571429,99,0,100,1,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Pull Up Method,ratiocount,SVM,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Pull Up Method,ratiocount,LogisticRegression,0.4,5,104,0.4928571428571429,99,0,100,1,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Pull Up Method,ratiocount,RandomForest,0.5,4,87,0.4942528735632184,99,0,100,1,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Pull Up Method,ratiocount,SVM,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Pull Up Method,ratiocount,LogisticRegression,0.5,4,87,0.4827586206896552,97,0,100,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Attribute,ratiocount,RandomForest,0.2,10,135,0.4857142857142857,97,0,100,3,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Move Attribute,ratiocount,SVM,0.2,10,135,0.4857142857142857,97,0,100,3,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Move Attribute,ratiocount,LogisticRegression,0.2,10,135,0.5,100,0,100,0,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Attribute,ratiocount,RandomForest,0.3,8,119,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Move Attribute,ratiocount,SVM,0.3,8,119,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Move Attribute,ratiocount,LogisticRegression,0.3,8,119,0.625,100,25,75,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Attribute,ratiocount,RandomForest,0.4,7,102,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Move Attribute,ratiocount,SVM,0.4,7,102,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Move Attribute,ratiocount,LogisticRegression,0.4,7,102,0.4852941176470588,97,0,100,3,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Attribute,ratiocount,RandomForest,0.5,6,85,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,False,False
+Move Attribute,ratiocount,SVM,0.5,6,85,0.5774509803921569,99,17,83,1,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Move Attribute,ratiocount,LogisticRegression,0.5,6,85,0.6549019607843137,98,33,67,2,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Method,ratiocount,RandomForest,0.2,8,137,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Move Method,ratiocount,SVM,0.2,8,137,0.4857142857142857,97,0,100,3,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,False,False
+Move Method,ratiocount,LogisticRegression,0.2,8,137,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Method,ratiocount,RandomForest,0.3,7,120,0.6378205128205128,94,33,67,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Move Method,ratiocount,SVM,0.3,7,120,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Move Method,ratiocount,LogisticRegression,0.3,7,120,0.47115384615384615,94,0,100,6,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Method,ratiocount,RandomForest,0.4,6,103,0.5960144927536232,94,25,75,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Move Method,ratiocount,SVM,0.4,6,103,0.47101449275362317,94,0,100,6,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,False,False
+Move Method,ratiocount,LogisticRegression,0.4,6,103,0.463768115942029,93,0,100,7,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Move Method,ratiocount,RandomForest,0.5,5,86,0.5767441860465117,95,20,80,5,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Move Method,ratiocount,SVM,0.5,5,86,0.47093023255813954,94,0,100,6,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Move Method,ratiocount,LogisticRegression,0.5,5,86,0.5709302325581396,94,20,80,6,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Extract Superclass,ratiocount,RandomForest,0.2,6,139,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Extract Superclass,ratiocount,SVM,0.2,6,139,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Extract Superclass,ratiocount,LogisticRegression,0.2,6,139,0.4857142857142857,97,0,100,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Extract Superclass,ratiocount,RandomForest,0.3,6,121,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Extract Superclass,ratiocount,SVM,0.3,6,121,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Extract Superclass,ratiocount,LogisticRegression,0.3,6,121,0.4716981132075472,94,0,100,6,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Extract Superclass,ratiocount,RandomForest,0.4,5,104,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Extract Superclass,ratiocount,SVM,0.4,5,104,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,False
+Extract Superclass,ratiocount,LogisticRegression,0.4,5,104,0.4857142857142857,97,0,100,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Extract Superclass,ratiocount,RandomForest,0.5,4,87,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,False
+Extract Superclass,ratiocount,SVM,0.5,4,87,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,False
+Extract Superclass,ratiocount,LogisticRegression,0.5,4,87,0.47126436781609193,94,0,100,6,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,False
+Inline Method,ratiocount_single,RandomForest,0.2,11,117,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_single,SVM,0.2,11,117,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,True
+Inline Method,ratiocount_single,LogisticRegression,0.2,11,117,0.4482758620689655,90,0,100,10,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_single,RandomForest,0.3,10,102,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_single,SVM,0.3,10,102,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Inline Method,ratiocount_single,LogisticRegression,0.3,10,102,0.4659090909090909,93,0,100,7,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_single,RandomForest,0.4,8,88,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_single,SVM,0.4,8,88,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,True
+Inline Method,ratiocount_single,LogisticRegression,0.4,8,88,0.5574712643678161,95,17,83,5,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_single,RandomForest,0.5,7,73,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_single,SVM,0.5,7,73,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Inline Method,ratiocount_single,LogisticRegression,0.5,7,73,0.550880626223092,96,14,86,4,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_single,RandomForest,0.2,78,50,0.6916666666666667,58,80,20,42,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_single,SVM,0.2,78,50,0.6,25,95,5,75,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Extract Method,ratiocount_single,LogisticRegression,0.2,78,50,0.6,25,95,5,75,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_single,RandomForest,0.3,69,43,0.7295825771324864,63,83,17,37,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_single,SVM,0.3,69,43,0.5707803992740472,21,93,7,79,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Extract Method,ratiocount_single,LogisticRegression,0.3,69,43,0.5535390199637024,21,90,10,79,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_single,RandomForest,0.4,59,37,0.6717948717948719,60,74,26,40,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratiocount,False,True
+Extract Method,ratiocount_single,SVM,0.4,59,37,0.5887179487179488,28,90,10,72,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Extract Method,ratiocount_single,LogisticRegression,0.4,59,37,0.5102564102564102,20,82,18,80,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_single,RandomForest,0.5,49,31,0.65174456879526,55,76,24,45,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",ratiocount,False,True
+Extract Method,ratiocount_single,SVM,0.5,49,31,0.5125082290980909,29,73,27,71,"[""{'C': 1, 'kernel': 'linear'}""]",ratiocount,False,True
+Extract Method,ratiocount_single,LogisticRegression,0.5,49,31,0.5329163923633969,29,78,22,71,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Class,ratiocount_single,RandomForest,0.2,14,114,0.48214285714285715,96,0,100,4,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,False,True
+Move Class,ratiocount_single,SVM,0.2,14,114,0.48214285714285715,96,0,100,4,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Move Class,ratiocount_single,LogisticRegression,0.2,14,114,0.6071428571428572,96,25,75,4,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Class,ratiocount_single,RandomForest,0.3,13,99,0.45348837209302323,91,0,100,9,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Move Class,ratiocount_single,SVM,0.3,13,99,0.6534883720930232,91,40,60,9,"[""{'C': 1, 'kernel': 'linear'}""]",ratiocount,False,True
+Move Class,ratiocount_single,LogisticRegression,0.3,13,99,0.6767441860465117,95,40,60,5,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Class,ratiocount_single,RandomForest,0.4,11,85,0.5363408521303258,93,14,86,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Move Class,ratiocount_single,SVM,0.4,11,85,0.5989974937343359,91,29,71,9,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,False,True
+Move Class,ratiocount_single,LogisticRegression,0.4,11,85,0.5451127819548872,95,14,86,5,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Class,ratiocount_single,RandomForest,0.5,9,71,0.5344287949921752,96,11,89,4,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Move Class,ratiocount_single,SVM,0.5,9,71,0.5555555555555556,100,11,89,0,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,False,True
+Move Class,ratiocount_single,LogisticRegression,0.5,9,71,0.7081377151799687,97,44,56,3,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,RandomForest,0.2,6,122,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,SVM,0.2,6,122,0.5,100,0,100,0,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,LogisticRegression,0.2,6,122,0.5,100,0,100,0,"[""{'C': 10, 'max"", ""iter': 200}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,RandomForest,0.3,5,107,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,SVM,0.3,5,107,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,LogisticRegression,0.3,5,107,0.5,100,0,100,0,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,RandomForest,0.4,4,92,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,SVM,0.4,4,92,0.6502732240437158,97,33,67,3,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,LogisticRegression,0.4,4,92,0.6502732240437158,97,33,67,3,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,RandomForest,0.5,3,77,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,SVM,0.5,3,77,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,False,True
+Move Attribute,ratiocount_single,LogisticRegression,0.5,3,77,0.618421052631579,99,25,75,1,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_split,RandomForest,0.2,12,24,0.7940140845070423,84,75,25,16,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,True,False
+Inline Method,ratiocount_split,SVM,0.2,12,24,0.6267605633802817,75,50,50,25,"[""{'C': 1, 'kernel': 'linear'}""]",ratiocount,True,False
+Inline Method,ratiocount_split,LogisticRegression,0.2,12,24,0.6443661971830985,79,50,50,21,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Inline Method,ratiocount_split,RandomForest,0.3,11,22,0.6270833333333333,85,40,60,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Inline Method,ratiocount_split,SVM,0.3,11,22,0.60625,81,40,60,19,"[""{'C': 1, 'kernel': 'linear'}""]",ratiocount,True,False
+Inline Method,ratiocount_split,LogisticRegression,0.3,11,22,0.50625,81,20,80,19,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,True,False
+Inline Method,ratiocount_split,RandomForest,0.4,9,18,0.7591698841698842,80,71,29,20,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Inline Method,ratiocount_split,SVM,0.4,9,18,0.6472007722007722,72,57,43,28,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Inline Method,ratiocount_split,LogisticRegression,0.4,9,18,0.6505791505791505,73,57,43,27,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Inline Method,ratiocount_split,RandomForest,0.5,8,16,0.7125,80,62,38,20,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Inline Method,ratiocount_split,SVM,0.5,8,16,0.6958333333333333,77,62,38,23,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Inline Method,ratiocount_split,LogisticRegression,0.5,8,16,0.5183333333333333,79,25,75,21,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Extract Method,ratiocount_split,RandomForest,0.2,85,37,0.5574162679425837,34,77,23,66,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,True,False
+Extract Method,ratiocount_split,SVM,0.2,85,37,0.5334928229665071,16,91,9,84,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Extract Method,ratiocount_split,LogisticRegression,0.2,85,37,0.5430622009569378,13,95,5,87,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Extract Method,ratiocount_split,RandomForest,0.3,74,37,0.536682615629984,32,76,24,68,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Extract Method,ratiocount_split,SVM,0.3,74,37,0.5354864433811802,13,94,6,87,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,True,False
+Extract Method,ratiocount_split,LogisticRegression,0.3,74,37,0.5618022328548644,18,94,6,82,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Extract Method,ratiocount_split,RandomForest,0.4,64,37,0.5664014687882497,34,79,21,66,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",ratiocount,True,False
+Extract Method,ratiocount_split,SVM,0.4,64,37,0.5556915544675642,16,95,5,84,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,True,False
+Extract Method,ratiocount_split,LogisticRegression,0.4,64,37,0.5587515299877601,21,91,9,79,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Extract Method,ratiocount_split,RandomForest,0.5,53,37,0.5847953216374269,45,72,28,55,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratiocount,True,False
+Extract Method,ratiocount_split,SVM,0.5,53,37,0.4956140350877193,16,83,17,84,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Extract Method,ratiocount_split,LogisticRegression,0.5,53,37,0.5584795321637427,39,72,28,61,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Class,ratiocount_split,RandomForest,0.2,21,42,0.7492625368731562,83,67,33,17,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Move Class,ratiocount_split,SVM,0.2,21,42,0.5781710914454277,82,33,67,18,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,True,False
+Move Class,ratiocount_split,LogisticRegression,0.2,21,42,0.5914454277286135,85,33,67,15,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Class,ratiocount_split,RandomForest,0.3,18,36,0.7408963585434174,82,67,33,18,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Move Class,ratiocount_split,SVM,0.3,18,36,0.6297852474323062,82,44,56,18,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Move Class,ratiocount_split,LogisticRegression,0.3,18,36,0.6171802054154996,79,44,56,21,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Class,ratiocount_split,RandomForest,0.4,16,32,0.736881005173688,84,64,36,16,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,True,False
+Move Class,ratiocount_split,SVM,0.4,16,32,0.6289726533628972,89,36,64,11,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,True,False
+Move Class,ratiocount_split,LogisticRegression,0.4,16,32,0.6256467110125646,80,45,55,20,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Class,ratiocount_split,RandomForest,0.5,13,26,0.7043189368770764,84,57,43,16,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Move Class,ratiocount_split,SVM,0.5,13,26,0.6281838316722038,90,36,64,10,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,True,False
+Move Class,ratiocount_split,LogisticRegression,0.5,13,26,0.6173864894795127,81,43,57,19,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Rename Package,ratiocount_split,RandomForest,0.2,5,10,0.9515151515151515,90,100,0,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Rename Package,ratiocount_split,SVM,0.2,5,10,0.9606060606060607,92,100,0,8,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Rename Package,ratiocount_split,LogisticRegression,0.2,5,10,0.9606060606060607,92,100,0,8,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Rename Package,ratiocount_split,RandomForest,0.3,4,8,0.9610778443113772,92,100,0,8,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Rename Package,ratiocount_split,SVM,0.3,4,8,0.9610778443113772,92,100,0,8,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Rename Package,ratiocount_split,LogisticRegression,0.3,4,8,0.9610778443113772,92,100,0,8,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Rename Package,ratiocount_split,RandomForest,0.4,4,8,0.9610778443113772,92,100,0,8,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Rename Package,ratiocount_split,SVM,0.4,4,8,0.9610778443113772,92,100,0,8,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Rename Package,ratiocount_split,LogisticRegression,0.4,4,8,0.9610778443113772,92,100,0,8,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Rename Package,ratiocount_split,RandomForest,0.5,3,6,0.9526627218934911,91,100,0,9,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Rename Package,ratiocount_split,SVM,0.5,3,6,0.9615384615384616,92,100,0,8,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Rename Package,ratiocount_split,LogisticRegression,0.5,3,6,0.9556213017751479,91,100,0,9,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,RandomForest,0.2,6,12,0.7006172839506173,90,50,50,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,SVM,0.2,6,12,0.5123456790123457,52,50,50,48,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,LogisticRegression,0.2,6,12,0.5555555555555556,61,50,50,39,"[""{'C': 10, 'max"", ""iter': 200}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,RandomForest,0.3,5,10,0.5,100,0,100,0,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,SVM,0.3,5,10,0.4044715447154471,48,33,67,52,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,LogisticRegression,0.3,5,10,0.4197154471544715,51,33,67,49,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,RandomForest,0.4,4,8,0.4367469879518072,87,0,100,13,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,SVM,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,LogisticRegression,0.4,4,8,0.5,50,50,50,50,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,RandomForest,0.5,4,8,0.4367469879518072,87,0,100,13,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,SVM,0.5,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,True,False
+Pull Up Method,ratiocount_split,LogisticRegression,0.5,4,8,0.5,50,50,50,50,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,RandomForest,0.2,9,18,0.5778508771929824,82,33,67,18,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,SVM,0.2,9,18,0.6403508771929824,95,33,67,5,"[""{'C': 1, 'kernel': 'rbf'}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,LogisticRegression,0.2,9,18,0.6206140350877193,91,33,67,9,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,RandomForest,0.3,8,16,0.6428571428571428,79,50,50,21,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,SVM,0.3,8,16,0.487012987012987,97,0,100,3,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,LogisticRegression,0.3,8,16,0.5665584415584415,88,25,75,12,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,RandomForest,0.4,7,14,0.667948717948718,94,40,60,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,SVM,0.4,7,14,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,LogisticRegression,0.4,7,14,0.5423076923076923,88,20,80,12,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,RandomForest,0.5,6,12,0.6350210970464135,94,33,67,6,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,SVM,0.5,6,12,0.49050632911392406,98,0,100,2,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,True,False
+Move Attribute,ratiocount_split,LogisticRegression,0.5,6,12,0.4525316455696203,91,0,100,9,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Method,ratiocount_split,RandomForest,0.2,8,16,0.44871794871794873,90,0,100,10,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,True,False
+Move Method,ratiocount_split,SVM,0.2,8,16,0.3173076923076923,63,0,100,37,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Move Method,ratiocount_split,LogisticRegression,0.2,8,16,0.2564102564102564,51,0,100,49,"[""{'C': 1, 'max"", ""iter': 200}""]",ratiocount,True,False
+Move Method,ratiocount_split,RandomForest,0.3,7,14,0.5970464135021097,86,33,67,14,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Move Method,ratiocount_split,SVM,0.3,7,14,0.46835443037974683,94,0,100,6,"[""{'C': 1, 'kernel': 'rbf'}""]",ratiocount,True,False
+Move Method,ratiocount_split,LogisticRegression,0.3,7,14,0.34177215189873417,68,0,100,32,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Method,ratiocount_split,RandomForest,0.4,6,12,0.459375,92,0,100,8,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Move Method,ratiocount_split,SVM,0.4,6,12,0.46875,94,0,100,6,"[""{'C': 1, 'kernel': 'rbf'}""]",ratiocount,True,False
+Move Method,ratiocount_split,LogisticRegression,0.4,6,12,0.390625,53,25,75,47,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,True,False
+Move Method,ratiocount_split,RandomForest,0.5,5,10,0.41358024691358025,83,0,100,17,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Move Method,ratiocount_split,SVM,0.5,5,10,0.4722222222222222,94,0,100,6,"[""{'C': 1, 'kernel': 'rbf'}""]",ratiocount,True,False
+Move Method,ratiocount_split,LogisticRegression,0.5,5,10,0.4469135802469136,49,40,60,51,"[""{'C': 10, 'max"", ""iter': 200}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,RandomForest,0.2,6,12,0.35802469135802467,72,0,100,28,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,SVM,0.2,6,12,0.3611111111111111,72,0,100,28,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,LogisticRegression,0.2,6,12,0.3765432098765432,75,0,100,25,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,RandomForest,0.3,5,10,0.3780487804878049,76,0,100,24,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,SVM,0.3,5,10,0.3932926829268293,79,0,100,21,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,LogisticRegression,0.3,5,10,0.39634146341463417,79,0,100,21,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,RandomForest,0.4,4,8,0.5075301204819277,77,25,75,23,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,SVM,0.4,4,8,0.5195783132530121,79,25,75,21,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,LogisticRegression,0.4,4,8,0.5225903614457832,80,25,75,20,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,RandomForest,0.5,4,8,0.5075301204819277,77,25,75,23,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,SVM,0.5,4,8,0.5195783132530121,79,25,75,21,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,False
+Extract Superclass,ratiocount_split,LogisticRegression,0.5,4,8,0.5225903614457832,80,25,75,20,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,True,False
+Inline Method,ratiocount_split_single,RandomForest,0.2,11,22,0.73252688172043,80,67,33,20,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,SVM,0.2,11,22,0.5295698924731183,73,33,67,27,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,LogisticRegression,0.2,11,22,0.6760752688172043,69,67,33,31,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,RandomForest,0.3,9,18,0.790625,78,80,20,22,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,SVM,0.3,9,18,0.5671875,73,40,60,27,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,LogisticRegression,0.3,9,18,0.66328125,73,60,40,27,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,RandomForest,0.4,8,16,0.8205128205128205,81,83,17,19,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 100}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,SVM,0.4,8,16,0.6192307692307693,74,50,50,26,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,LogisticRegression,0.4,8,16,0.6423076923076922,78,50,50,22,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,RandomForest,0.5,7,14,0.7586580086580086,80,71,29,20,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,SVM,0.5,7,14,0.5963203463203464,62,57,43,38,"[""{'C': 1, 'kernel': 'linear'}""]",ratiocount,True,True
+Inline Method,ratiocount_split_single,LogisticRegression,0.5,7,14,0.5703463203463204,71,43,57,29,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,RandomForest,0.2,78,31,0.5451612903225806,29,80,20,71,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,SVM,0.2,78,31,0.5540322580645161,26,85,15,74,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,LogisticRegression,0.2,78,31,0.5379032258064516,23,85,15,77,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,RandomForest,0.3,68,31,0.6086021505376344,48,73,27,52,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,SVM,0.3,68,31,0.5790322580645162,26,90,10,74,"[""{'C': 1, 'kernel': 'linear'}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,LogisticRegression,0.3,68,31,0.5951612903225807,29,90,10,71,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,RandomForest,0.4,58,31,0.6241935483870967,55,70,30,45,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,SVM,0.4,58,31,0.5665322580645161,26,88,12,74,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,LogisticRegression,0.4,58,31,0.5987903225806451,32,88,12,68,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,RandomForest,0.5,49,31,0.631336405529954,55,71,29,45,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,SVM,0.5,49,31,0.5576036866359446,26,86,14,74,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,True
+Extract Method,ratiocount_split_single,LogisticRegression,0.5,49,31,0.6280447662936143,42,84,16,58,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,RandomForest,0.2,14,28,0.8223684210526316,89,75,25,11,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,SVM,0.2,14,28,0.42543859649122806,85,0,100,15,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,LogisticRegression,0.2,14,28,0.43859649122807015,88,0,100,12,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,RandomForest,0.3,12,24,0.7033898305084746,91,50,50,9,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,SVM,0.3,12,24,0.6694915254237288,84,50,50,16,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,LogisticRegression,0.3,12,24,0.5988700564971752,86,33,67,14,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,RandomForest,0.4,10,20,0.6547131147540983,93,38,62,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,SVM,0.4,10,20,0.5891393442622951,80,38,62,20,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,LogisticRegression,0.4,10,20,0.6137295081967213,85,38,62,15,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,RandomForest,0.5,9,18,0.7213261648745519,89,56,44,11,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,SVM,0.5,9,18,0.6254480286738351,81,44,56,19,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,True
+Move Class,ratiocount_split_single,LogisticRegression,0.5,9,18,0.6536738351254481,86,44,56,14,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,RandomForest,0.2,5,10,0.6520979020979021,80,50,50,20,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,SVM,0.2,5,10,0.5017482517482518,50,50,50,50,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,LogisticRegression,0.2,5,10,0.5961538461538461,69,50,50,31,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,RandomForest,0.3,4,8,0.47011494252873565,61,33,67,39,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,SVM,0.3,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,LogisticRegression,0.3,4,8,0.30344827586206896,61,0,100,39,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,RandomForest,0.4,4,8,0.47011494252873565,61,33,67,39,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,SVM,0.4,4,8,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,LogisticRegression,0.4,4,8,0.30344827586206896,61,0,100,39,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,RandomForest,0.5,3,6,0.3469387755102041,69,0,100,31,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,SVM,0.5,3,6,0.5,100,0,100,0,"[""{'C': 0.1, 'kernel': 'rbf'}""]",ratiocount,True,True
+Move Attribute,ratiocount_split_single,LogisticRegression,0.5,3,6,0.3903061224489796,53,25,75,47,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,True,True
+Inline Method,count_smote_single,RandomForest,0.2,117,117,0.46551724137931033,93,0,100,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",count,False,True
+Inline Method,count_smote_single,SVM,0.2,117,117,0.7126436781609196,76,67,33,24,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Inline Method,count_smote_single,LogisticRegression,0.2,117,117,0.7298850574712643,79,67,33,21,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Inline Method,count_smote_single,RandomForest,0.3,102,102,0.5909090909090908,93,25,75,7,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Inline Method,count_smote_single,SVM,0.3,102,102,0.5340909090909092,82,25,75,18,"[""{'C': 10, 'kernel': 'rbf'}""]",count,False,True
+Inline Method,count_smote_single,LogisticRegression,0.3,102,102,0.6704545454545454,84,50,50,16,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Inline Method,count_smote_single,RandomForest,0.4,88,88,0.7241379310344828,95,50,50,5,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",count,False,True
+Inline Method,count_smote_single,SVM,0.4,88,88,0.7385057471264367,81,67,33,19,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Inline Method,count_smote_single,LogisticRegression,0.4,88,88,0.7471264367816092,83,67,33,17,"[""{'C': 1, 'max"", ""iter': 100}""]",count,False,True
+Inline Method,count_smote_single,RandomForest,0.5,73,73,0.7954990215264188,88,71,29,12,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",count,False,True
+Inline Method,count_smote_single,SVM,0.5,73,73,0.6829745596868884,79,57,43,21,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Inline Method,count_smote_single,LogisticRegression,0.5,73,73,0.6692759295499021,77,57,43,23,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Extract Method,count_smote_single,RandomForest,0.2,78,78,0.7333333333333334,67,80,20,33,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Extract Method,count_smote_single,SVM,0.2,78,78,0.55,25,85,15,75,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Extract Method,count_smote_single,LogisticRegression,0.2,78,78,0.6083333333333334,42,80,20,58,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Extract Method,count_smote_single,RandomForest,0.3,69,69,0.8085299455535391,79,83,17,21,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",count,False,True
+Extract Method,count_smote_single,SVM,0.3,69,69,0.6234119782214156,32,93,7,68,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Extract Method,count_smote_single,LogisticRegression,0.3,69,69,0.5980036297640653,37,83,17,63,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Extract Method,count_smote_single,RandomForest,0.4,59,59,0.6574358974358974,52,79,21,48,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",count,False,True
+Extract Method,count_smote_single,SVM,0.4,59,59,0.5517948717948717,36,74,26,64,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Extract Method,count_smote_single,LogisticRegression,0.4,59,59,0.5261538461538462,36,69,31,64,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Extract Method,count_smote_single,RandomForest,0.5,49,49,0.5506912442396313,39,71,29,61,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Extract Method,count_smote_single,SVM,0.5,49,49,0.6474654377880185,58,71,29,42,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Extract Method,count_smote_single,LogisticRegression,0.5,49,49,0.5566161948650428,42,69,31,58,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Move Class,count_smote_single,RandomForest,0.2,114,114,0.5535714285714286,86,25,75,14,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Move Class,count_smote_single,SVM,0.2,114,114,0.8035714285714286,86,75,25,14,"[""{'C': 1, 'kernel': 'linear'}""]",count,False,True
+Move Class,count_smote_single,LogisticRegression,0.2,114,114,0.7857142857142857,82,75,25,18,"[""{'C': 1, 'max"", ""iter': 100}""]",count,False,True
+Move Class,count_smote_single,RandomForest,0.3,99,99,0.6953488372093023,79,60,40,21,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 4, 'min"", 'samples', ""split': 10, 'n"", ""estimators': 200}""]",count,False,True
+Move Class,count_smote_single,SVM,0.3,99,99,0.7186046511627907,84,60,40,16,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Move Class,count_smote_single,LogisticRegression,0.3,99,99,0.6953488372093023,79,60,40,21,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Move Class,count_smote_single,RandomForest,0.4,85,85,0.6265664160401002,82,43,57,18,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Move Class,count_smote_single,SVM,0.4,85,85,0.7330827067669172,89,57,43,11,"[""{'C': 0.1, 'kernel': 'linear'}""]",count,False,True
+Move Class,count_smote_single,LogisticRegression,0.4,85,85,0.7155388471177945,86,57,43,14,"[""{'C': 1, 'max"", ""iter': 100}""]",count,False,True
+Move Class,count_smote_single,RandomForest,0.5,71,71,0.7003129890453834,85,56,44,15,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",count,False,True
+Move Class,count_smote_single,SVM,0.5,71,71,0.6791862284820032,80,56,44,20,"[""{'C': 1, 'kernel': 'linear'}""]",count,False,True
+Move Class,count_smote_single,LogisticRegression,0.5,71,71,0.6791862284820032,80,56,44,20,"[""{'C': 0.1, 'max"", ""iter': 100}""]",count,False,True
+Inline Method,ratiocount_smote_single,RandomForest,0.2,117,117,0.632183908045977,93,33,67,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,SVM,0.2,117,117,0.5287356321839081,72,33,67,28,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,LogisticRegression,0.2,117,117,0.7298850574712643,79,67,33,21,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,RandomForest,0.3,102,102,0.7159090909090908,93,50,50,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,SVM,0.3,102,102,0.5227272727272727,80,25,75,20,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,LogisticRegression,0.3,102,102,0.6590909090909092,82,50,50,18,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,RandomForest,0.4,88,88,0.7155172413793103,93,50,50,7,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,SVM,0.4,88,88,0.7298850574712643,79,67,33,21,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,LogisticRegression,0.4,88,88,0.7471264367816092,83,67,33,17,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,RandomForest,0.5,73,73,0.7886497064579256,86,71,29,14,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,SVM,0.5,73,73,0.7407045009784736,77,71,29,23,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,False,True
+Inline Method,ratiocount_smote_single,LogisticRegression,0.5,73,73,0.7984344422700587,74,86,14,26,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,RandomForest,0.2,78,78,0.7083333333333333,67,75,25,33,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,SVM,0.2,78,78,0.7666666666666666,83,70,30,17,"[""{'C': 1, 'kernel': 'linear'}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,LogisticRegression,0.2,78,78,0.6916666666666667,58,80,20,42,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,RandomForest,0.3,69,69,0.7740471869328494,79,76,24,21,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 5, 'n"", ""estimators': 200}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,SVM,0.3,69,69,0.5181488203266787,11,93,7,89,"[""{'C': 10, 'kernel': 'rbf'}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,LogisticRegression,0.3,69,69,0.6333938294010889,47,79,21,53,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,RandomForest,0.4,59,59,0.658974358974359,60,72,28,40,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,SVM,0.4,59,59,0.5717948717948718,40,74,26,60,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,LogisticRegression,0.4,59,59,0.538974358974359,36,72,28,64,"[""{'C': 10, 'max"", ""iter': 100}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,RandomForest,0.5,49,49,0.6329822251481237,61,65,35,39,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,SVM,0.5,49,49,0.5931533903884134,45,73,27,55,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Extract Method,ratiocount_smote_single,LogisticRegression,0.5,49,49,0.5184331797235023,32,71,29,68,"[""{'C': 1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,RandomForest,0.2,114,114,0.5535714285714286,86,25,75,14,"[""{'max"", ""depth': 10, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,SVM,0.2,114,114,0.7321428571428572,71,75,25,29,"[""{'C': 1, 'kernel': 'linear'}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,LogisticRegression,0.2,114,114,0.8035714285714286,86,75,25,14,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,RandomForest,0.3,99,99,0.6837209302325582,77,60,40,23,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 200}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,SVM,0.3,99,99,0.7069767441860465,81,60,40,19,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,LogisticRegression,0.3,99,99,0.7186046511627907,84,60,40,16,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,RandomForest,0.4,85,85,0.6892230576441103,81,57,43,19,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 2, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,SVM,0.4,85,85,0.7243107769423558,88,57,43,12,"[""{'C': 10, 'kernel': 'linear'}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,LogisticRegression,0.4,85,85,0.7243107769423558,88,57,43,12,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,RandomForest,0.5,71,71,0.7073552425665102,86,56,44,14,"[""{'max"", ""depth': None, 'min"", 'samples', ""leaf': 1, 'min"", 'samples', ""split': 2, 'n"", ""estimators': 100}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,SVM,0.5,71,71,0.7417840375586855,82,67,33,18,"[""{'C': 0.1, 'kernel': 'linear'}""]",ratiocount,False,True
+Move Class,ratiocount_smote_single,LogisticRegression,0.5,71,71,0.7003129890453834,85,56,44,15,"[""{'C': 0.1, 'max"", ""iter': 100}""]",ratiocount,False,True

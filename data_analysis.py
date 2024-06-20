@@ -40,23 +40,15 @@ orig_single, orig_multiple, orig_total, details_pre = analyze_data(data_pre)
 retr_single, retr_multiple, retr_total, details_post = analyze_data(data_post)
 
 # Prepare data for visualization
-single_types_combined = pd.DataFrame({'Original': orig_single, 'Retrieved': retr_single}).fillna(0)
-multiple_types_combined = pd.DataFrame({'Original': orig_multiple, 'Retrieved': retr_multiple}).fillna(0)
-total_types_combined = pd.DataFrame({'Original': orig_total, 'Retrieved': retr_total}).fillna(0)
+single_types_combined = pd.DataFrame({'Original Single': orig_single, 'Retrieved Single': retr_single}).fillna(0)
+multiple_types_combined = pd.DataFrame({'Original Mixed': orig_multiple, 'Retrieved Mixed': retr_multiple}).fillna(0)
+total_types_combined = pd.DataFrame({'Original Total': orig_total, 'Retrieved Total': retr_total}).fillna(0)
 
-# Combine and prepare data for CSV export
-def prepare_detailed_data(details):
-    df = pd.DataFrame.from_dict(details, orient='index').fillna(0)
-    df.index.name = 'id'
-    return df
+# Combine all data into one DataFrame for CSV export
+combined_data = pd.concat([total_types_combined, multiple_types_combined, single_types_combined], axis=1)
 
-# Generate dataframes from details
-df_pre = prepare_detailed_data(details_pre)
-df_post = prepare_detailed_data(details_post)
-
-# Save to CSV
-df_pre.to_csv('analysis_results\\refactoring_details_pre.csv')
-df_post.to_csv('analysis_results\\refactoring_details_post.csv')
+# Save the combined data to CSV
+combined_data.to_csv('analysis_results\\combined_refactoring_analysis.csv')
 
 # Create a directory for the results if it doesn't exist
 output_dir = 'analysis_results\\'

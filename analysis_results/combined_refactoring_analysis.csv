@@ -1,0 +1,13 @@
+,Original Total,Retrieved Total,Original Mixed,Retrieved Mixed,Original Single,Retrieved Single
+Inline Method,44,16,8,2,36,14
+Extract Method,312,111,31,9,281,102
+Move Attribute,45,14,19,6,26,8
+Move Class,85,27,21,9,64,18
+Extract Interface,10,4,3,2,7,2
+Rename Package,25,8,8,3,17,5
+Pull Up Attribute,11,5,9,4,2,1
+Pull Up Method,18,8,9,4,9,4
+Move Method,40,11,20,6,20,5
+Extract Superclass,18,8,7,3,11,5
+Push Down Attribute,7,3,6,2,1,1
+Push Down Method,6,2,4,1,2,1

@@ -1,0 +1,18 @@
+\begin{table*}
+    \begin{tabular}{c|c|c|c|c}
+    \toprule
+    Refactoring Type & Approach & BA (\%) & TN (\%) & TP (\%) \\
+    \midrule
+    Extract Method & count smote single & 81 & 79 & 83 \\
+    Extract Superclass & ratio split & 63 & 77 & 50 \\
+    Inline Method & count split single & 86 & 88 & 83 \\
+    Move Attribute & count split & 69 & 88 & 50 \\
+    Move Class & ratio split single & 84 & 93 & 75 \\
+    Move Method & ratio split & 72 & 93 & 50 \\
+    Pull Up Method & ratiocount split & 70 & 90 & 50 \\
+    Rename Package & count & 100 & 100 & 100 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Table of best balanced accuracy (BA), true negative (TN), and true positive (TP) percentages for each refactoring type}
+    \label{tab:refactoring_best_accuracy}
+\end{table*}
